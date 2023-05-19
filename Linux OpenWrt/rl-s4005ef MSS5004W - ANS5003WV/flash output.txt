@@ -1,0 +1,148 @@
+(none) login: PPP generic driver version 2.4.2
+PPP MPPE Compression module registered
+NET: Registered protocol family 24
+nf_conntrack version 0.5.0 (972 buckets, 3888 max)
+CONFIG_NF_CT_ACCT is deprecated and will be removed soon. Please use
+nf_conntrack.acct=1 kernel parameter, acct=1 nf_conntrack module option or
+sysctl net.netfilter.nf_conntrack_acct=1 to enable it.
+xt_webstr: module license 'unspecified' taints kernel.
+Disabling lock debugging due to kernel taint
+xt_time: kernel timezone is -0000
+IMQ driver loaded successfully.
+        Hooking IMQ before NAT on PREROUTING.
+        Hooking IMQ after NAT on POSTROUTING.
+Netfilter messages via NETLINK v0.30.
+ctnetlink v0.93: registering with nfnetlink.
+
+
+=== pAd = c07ee000, size = 695264 ===
+
+<-- RTMPAllocTxRxRingMemory, Status=0
+<-- RTMPAllocAdapterBlock, Status=0
+AP Driver version-2.7.1.6
+rdm_major = 253
+input: gpio-buttons as /devices/platform/gpio-buttons/input/input0
+Button Hotplug driver version 0.3.1
+device eth1 entered promiscuous mode
+eth0: link up
+eth1_0: link up
+eth1: link up (1000Mbps/Full duplex)
+RX DESC a3298000  size = 2048
+APSDCapable[0]=0
+APSDCapable[1]=0
+APSDCapable[2]=0
+APSDCapable[3]=0
+APSDCapable[4]=0
+APSDCapable[5]=0
+APSDCapable[6]=0
+APSDCapable[7]=0
+APSDCapable[8]=0
+APSDCapable[9]=0
+APSDCapable[10]=0
+APSDCapable[11]=0
+APSDCapable[12]=0
+APSDCapable[13]=0
+APSDCapable[14]=0
+APSDCapable[15]=0
+Key1Str is Invalid key length(0) or Type(0)
+Key2Str is Invalid key length(0) or Type(0)
+Key3Str is Invalid key length(0) or Type(0)
+Key4Str is Invalid key length(0) or Type(0)
+1. Phy Mode = 9
+2. Phy Mode = 9
+E2PROM: D0 target power=0xff20
+E2PROM: 40 MW Power Delta= 0
+3. Phy Mode = 9
+AntCfgInit: primary/secondary ant 0/1
+Initialize RF Central Registers for E2 !!!
+Initialize RF Central Registers for E3 !!!
+Initialize RF Channel Registers for E2 !!!
+Initialize RF Channel Registers for E3 !!!
+Initialize RF DCCal Registers for E2 !!!
+Initialize RF DCCal Registers for E3 !!!
+D1 = 2, D2 = 4, CalCode = 5 !!!
+RT6352_Temperature_Init : BBPR49 = 0x2
+RT6352_Temperature_Init : TemperatureRef25C = 0xfffffff8
+Current Temperature from BBP_R49=0xfffffff8
+ TX BW Filter Calibration !!!
+ RX BW Filter Calibration !!!
+LOFT Calibration Done!
+IQCalibration Start!
+IQCalibration Done! CH = 0, (gain= 1, phase= 1)
+IQCalibration Start!
+IQCalibration Done! CH = 1, (gain= f, phase= 1)
+TX IQ Calibration Done!
+internal ALC is not enabled in NVM !
+RTMPSetPhyMode: channel is out of range, use first channel=0
+MCS Set = ff ff 00 00 01
+SYNC - BBP R4 to 20MHz.l
+SYNC - BBP R4 to 20MHz.l
+SYNC - BBP R4 to 20MHz.l
+SYNC - BBP R4 to 20MHz.l
+SYNC - BBP R4 to 20MHz.l
+SYNC - BBP R4 to 20MHz.l
+SYNC - BBP R4 to 20MHz.l
+SYNC - BBP R4 to 20MHz.l
+SYNC - BBP R4 to 20MHz.l
+SYNC - BBP R4 to 20MHz.l
+Main bssid = 1c:18:4a:3b:de:2c
+<==== rt28xx_init, Status=0
+0x1300 = 00064380
+device eth1_0 entered promiscuous mode
+br-lan: port 1(eth1_0) entering forwarding state
+device eth1_1 entered promiscuous mode
+device eth1_2 entered promiscuous mode
+device eth1_3 entered promiscuous mode
+device ra0 entered promiscuous mode
+br-lan: port 5(ra0) entering forwarding state
+device ra1 entered promiscuous mode
+device ra2 entered promiscuous mode
+device ra3 entered promiscuous mode
+device eth0 entered promiscuous mode
+br-lan: port 9(eth0) entering forwarding state
+CPU 0 Unable to handle kernel paging request at virtual address c00835a0, epc == 8010e450, ra == 8010e3c8
+Oops[#1]:
+Cpu 0
+$ 0   : 00000000 00000000 c00835a0 00020000
+$ 4   : ffffa12c 0001a12c fffe0000 830d6780
+$ 8   : 81054180 00000041 82a05ab0 de80bf39
+$12   : 83907194 83907180 00000001 80289874
+$16   : 001da12b 00000006 00000000 c126e644
+$20   : 000186cc 0000000a 001da12c c0085000
+$24   : 00000003 8004f908
+$28   : 82a04000 82a05a98 c126e000 8010e3c8
+Hi    : 00000002
+Lo    : 00000000
+epc   : 8010e450 unlzma+0xe58/0xf8c
+    Tainted: P
+ra    : 8010e3c8 unlzma+0xdd0/0xf8c
+Status: 1100e403    KERNEL EXL IE
+Cause : 00800008
+BadVA : c00835a0
+PrId  : 00019650 (MIPS 24Kc)
+Modules linked in: button_hotplug gpio_buttons rt_rdm rt2860v2_ap(P) nf_conntrack_netlink ebt_arpreply ebt_arp ebt_stp nfnetlink xt_IMQ imq nf_nat_snmp_basic nf_nat_pptp nf_conntrack_pptp nf_nat_h323 nf_conntrack_h323 nf_nat_proto_gre nf_conntrack_proto_gre nf_nat_amanda nf_conntrack_amanda nf_nat_tftp nf_conntrack_tftp nf_nat_irc nf_conntrack_irc nf_nat_ftp nf_conntrack_ftp xt_iprange xt_MARK xt_CLASSIFY xt_time xt_webstr(P) xt_tcpmss xt_statistic xt_mark xt_length xt_DSCP xt_dscp xt_string xt_layer7 xt_quota xt_pkttype xt_physdev xt_owner ipt_MASQUERADE iptable_nat nf_nat xt_CONNMARK xt_recent xt_helper xt_conntrack xt_connmark xt_connbytes xt_NOTRACK xt_state nf_conntrack_ipv4 nf_defrag_ipv4 nf_conntrack pppoe pppox xt_TCPMSS xt_comment xt_multiport xt_mac xt_limit ppp_mppe ppp_async ppp_generic slhc nls_utf8 ts_fsm ts_bm ts_kmp input_polldev crc_ccitt input_core sha1_generic arc4 aes_generic deflate ecb cbc leds_gpio [last unloaded: nf_conntrack_sip]
+Process uhttpd (pid: 967, threadinfo=82a04000, task=83816d50, tls=00000000)
+Stack : 81080108 00000002 8009d52c 831d9400 00000006 00000029 0000001d 0200006d
+        01f65100 00000000 00000000 8010d47c c0067c74 c0063000 c0069883 00006883
+        06d2ffeb 0bc98e06 09ebf380 00000004 00f6bc13 000136ce 00000352 00000000
+        c0063000 00000003 00000003 00000001 00000000 c126e644 c126ea68 c126e664
+        00000007 8348c948 802c0000 0000001c 831d9470 00000000 00000000 c0069883
+        ...
+Call Trace:
+[<8010e450>] unlzma+0xe58/0xf8c
+[<800c7b78>] lzma_uncompress+0x134/0x254
+[<800c446c>] squashfs_read_data+0x45c/0x638
+[<800c4d14>] squashfs_cache_get+0x1c4/0x2f4
+[<800c5c38>] squashfs_readpage+0x58c/0x854
+[<800555c8>] __do_page_cache_readahead+0x1d8/0x244
+[<8005565c>] ra_submit+0x28/0x34
+[<80055ba8>] page_cache_sync_readahead+0x5c/0x68
+[<8004f090>] generic_file_aio_read+0x27c/0x720
+[<80077804>] do_sync_read+0xd4/0x13c
+[<800cb164>] mini_fo_read+0x88/0x168
+[<800785bc>] vfs_read+0xac/0x170
+[<80078774>] sys_read+0x58/0xa0
+[<80002544>] stack_done+0x20/0x3c
+
+
+Code: 5040fffe  00832021  02e41021 <90500000> 02f41021  a0500000  8fa400bc  1080000d  26940001

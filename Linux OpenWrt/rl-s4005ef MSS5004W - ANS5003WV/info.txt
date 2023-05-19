@@ -1,0 +1,95 @@
+vcc -> +
+gnd -> -
+rx -> receive
+tx -> transmit
+
+OpenWrt version = 10.03.x Snapshot
+
+DISTRIB_ID="OpenWrt"
+DISTRIB_RELEASE="10.03.x Snapshot"
+DISTRIB_REVISION="r18580"
+DISTRIB_CODENAME="backfire"
+DISTRIB_TARGET="ramips/generic"
+DISTRIB_DESCRIPTION="OpenWrt Backfire r18580"
+
+booting image at: bc050000
+
+Load Address and Entry point: 88000000
+
+RAM size: 04000000 @ 00000000
+
+
+machine is : Richerlink RL-S4005EF reference board
+
+1st router current ip = 192.168.100.205 ( dev )
+2nd router current ip = 192.168.100.230 ( bricked )
+3rd router current ip = 192.168.100.225
+
+server ip = wireless : 192.168.100.47
+			ethernet : 192.168.100.66
+			
+			
+			
+setenv serverip 192.168.1.234
+tftpboot 0x81000000 firm.bin
+erase 0xbf020000 +0x7c0000
+cp.b 0x81000000 0xbf020000 0x7c0000
+bootm 0xbf020000
+
+
+image file structure:
+
+150000.squashfs: rootfs partition
+50050.7z: compressed kernel image, likely corresponds to the kernel partition
+720050.7z: compressed kernel image, likely corresponds to the kernel2 partition
+DF0000.jffs2: JFFS2 filesystem, likely corresponds to the rootfs_data partition
+820000.squashfs: Squashfs filesystem, likely corresponds to the rootfs2 partition
+FF0000.squashfs: Squashfs filesystem, likely corresponds to the vendor partition
+
+
+Likely:
+squashfs-root -> squashfs file system
+150000.squashfs -> rootfs
+50050.7z -> kernel image
+
+
+http://81.0.124.218/attitude_adjustment/12.09/ramips/rt305x/packages/luasocket_2.0.2-3_ramips.ipk
+
+
+---------------
+
+
+Assuming you are building OpenWRT, here are the options you can select in menuconfig for your specifications:
+
+CPU Selection:
+
+Target System: MediaTek Ralink MIPS
+Subtarget: MT76x8 based boards
+Target Profile: RL-4G15 / RL-S4005EF
+Board Selection:
+
+Board DTS: ralink,mt7620-iot-rl-4g15-sg
+Flash Layout:
+
+Flash Layout: 16MB Flash, 64MB RAM
+Target Images:
+ ramdisk
+ tar
+[*] squashfs
+ cramfs
+ jffs2
+[*] kernel
+[*] rootfs
+Target Images:
+
+Firmware:
+[*] Generate CRC32 checksum of the firmware
+Kernel modules:
+
+USB Support:
+<*> kmod-usb-core
+<*> kmod-usb2
+Filesystems:
+<*> kmod-fs-ext4
+<*> kmod-fs-vfat
+<*> kmod-fs-ntfs

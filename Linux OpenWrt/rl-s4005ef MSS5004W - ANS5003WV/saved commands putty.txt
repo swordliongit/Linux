@@ -1,0 +1,2020 @@
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_TX_LENGTH_Proc
+./sys/module/rt2860v2_ap/sections/.text.Default_Set_ATE_TX_FREQ_OFFSET_Proc
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_RX_Antenna_Proc
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_TX_Antenna_Proc
+./sys/module/rt2860v2_ap/sections/.text.ATESetAntennaTxPower
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_TX_POWER1_Proc
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_TX_POWER0_Proc
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_INIT_CHAN_Proc
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_CHANNEL_Proc
+./sys/module/rt2860v2_ap/sections/.text.Set_ADCDump_Proc
+./sys/module/rt2860v2_ap/sections/.text.ATEInit
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_SHOW_TSSI_Proc
+./sys/module/rt2860v2_ap/sections/.text.RXFRAME
+./sys/module/rt2860v2_ap/sections/.text.RT6352_ATETempCalibration
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_TEMP_CAL_Proc
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_Payload_Proc
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_AUTO_ALC_Proc
+./sys/module/rt2860v2_ap/sections/.text.Default_Set_ATE_TX_BW_Proc
+./sys/module/rt2860v2_ap/sections/.text.BbpHardReset
+./sys/module/rt2860v2_ap/sections/.text.DefaultATEAsicSwitchChannel
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_BSSID_Proc
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_SA_Proc
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_DA_Proc
+./sys/module/rt2860v2_ap/sections/.text.ATESTOP
+./sys/module/rt2860v2_ap/sections/.text.TXCONT
+./sys/module/rt2860v2_ap/sections/.text.TXFRAME
+./sys/module/rt2860v2_ap/sections/.text.ATEDisableAsicProtect
+./sys/module/rt2860v2_ap/sections/.text.ATEAPStop
+./sys/module/rt2860v2_ap/sections/.text.ATECmdHandler
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_Proc
+./sys/module/rt2860v2_ap/sections/.text.ReadQATxTypeFromBBP
+./sys/module/rt2860v2_ap/sections/.text.rt_ee_write_bulk
+./sys/module/rt2860v2_ap/sections/.text.rt_ee_write_all
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_Load_E2P_Proc
+./sys/module/rt2860v2_ap/sections/.text.rt_ee_read_all
+./sys/module/rt2860v2_ap/sections/.text.Set_ATE_Read_E2P_Proc
+./sys/module/rt2860v2_ap/sections/.text.DefaultATEAsicAdjustTxPower
+./sys/module/rt2860v2_ap/sections/.text.BubbleSort
+./sys/module/rt2860v2_ap/sections/.text.ATE_QA_Statistics
+./sys/module/rt2860v2_ap/sections/.text.memcpy_exl
+./sys/module/rt2860v2_ap/sections/.text.ResponseToGUI
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_SHOW_PARAM
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_GET_TX_STATUS
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_CLEAR_COUNTER
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_GET_COUNTER
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_GET_STATISTICS
+./sys/module/rt2860v2_ap/sections/.text.Set_RFWrite_Proc
+./sys/module/rt2860v2_ap/sections/.text.Set_EEWrite_Proc
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_IO_WRITE_BULK
+./sys/module/rt2860v2_ap/sections/.text.memcpy_exs
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_SET_ADDR3
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_SET_ADDR2
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_SET_ADDR1
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_IO_READ_BULK
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_IO_WRITE
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_IO_READ
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_E2PROM_WRITE16
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_E2PROM_READ16
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_RF_WRITE_ALL
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_TEMP_COMPENSATION
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_TSSI_COMPENSATION
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_RF_READ_BULK_BANK
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_RF_WRITE_BULK_BANK
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_CALIBRATION
+./sys/module/rt2860v2_ap/sections/.text.ATE_BBPRead
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_BBP_READ_BULK
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_BBP_READ_ALL
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_BBP_READ8
+./sys/module/rt2860v2_ap/sections/.text.Set_BBPRead_Proc
+./sys/module/rt2860v2_ap/sections/.text.SyncTxRxConfig
+./sys/module/rt2860v2_ap/sections/.text.ATE_BBPWrite
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_BBP_WRITE_BULK
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_BBP_WRITE8
+./sys/module/rt2860v2_ap/sections/.text.Set_BBPWrite_Proc
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_E2PROM_WRITE_BULK
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_E2PROM_READ_BULK
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_E2PROM_READ_ALL
+./sys/module/rt2860v2_ap/sections/.text.Set_EERead_Proc
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_START_RX_FRAME
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_START_TX_FRAME
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_START_TX_CONT
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_START_TX_CARRIER
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_STOP
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_START
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_RX_STOP
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_RX_START
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_TX_STOP
+./sys/module/rt2860v2_ap/sections/.text.Set_RxStop_Proc
+./sys/module/rt2860v2_ap/sections/.text.Set_TxStop_Proc
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_SET_TX_FRAME_COUNT
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_SET_TX_FRAME_LEN
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_SET_RATE
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_SET_CHANNEL
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_SET_PREAMBLE
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_SEL_RX_ANTENNA
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_SEL_TX_ANTENNA
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_RESET_COUNTER
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_SET_FREQ_OFFSET
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_SET_TX_POWER1
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_SET_TX_POWER0
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_ATE_SET_BW
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_E2PROM_WRITE_ALL
+./sys/module/rt2860v2_ap/sections/.text.RtmpDoAte
+./sys/module/rt2860v2_ap/sections/.text.CalNoiseLevel
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_GET_NOISE_LEVEL
+./sys/module/rt2860v2_ap/sections/.text.RXSTOP
+./sys/module/rt2860v2_ap/sections/.text.TXSTOP
+./sys/module/rt2860v2_ap/sections/.text.DO_RACFG_CMD_TX_START
+./sys/module/rt2860v2_ap/sections/.text.TxDmaBusy
+./sys/module/rt2860v2_ap/sections/.text.RxDmaBusy
+./sys/module/rt2860v2_ap/sections/.text.ATEWriteTxWI
+./sys/module/rt2860v2_ap/sections/.text.ATESetUpFrame
+./sys/module/rt2860v2_ap/sections/.text.RtmpDmaEnable
+./sys/module/rt2860v2_ap/sections/.text.RtmpDrvMaxRateGet
+./sys/module/rt2860v2_ap/sections/.text.rtstrchr
+./sys/module/rt2860v2_ap/sections/.text.RtmpMeshDown
+./sys/module/rt2860v2_ap/sections/.text.RtmpOsCmdDisplayLenCheck
+./sys/module/rt2860v2_ap/sections/.text.RtPrivIoctlSetVal
+./sys/module/rt2860v2_ap/sections/.text.RtmpChipWriteMemory
+./sys/module/rt2860v2_ap/sections/.text.RtmpChipWriteHighMemory
+./sys/module/rt2860v2_ap/sections/.text.NetDevNickNameInit
+./sys/module/rt2860v2_ap/sections/.text.RTMPReadChannelPwr
+./sys/module/rt2860v2_ap/sections/.text.AsicAntennaDefaultReset
+./sys/module/rt2860v2_ap/sections/.text.RtmpChipBcnInit
+./sys/module/rt2860v2_ap/sections/.text.RtmpChipBcnSpecInit
+./sys/module/rt2860v2_ap/sections/.text.WaitForAsicReady
+./sys/module/rt2860v2_ap/sections/.text.AsicGetMacVersion
+./sys/module/rt2860v2_ap/sections/.text.AsicBBPReadWithRxChain
+./sys/module/rt2860v2_ap/sections/.text.AsicBBPWriteWithRxChain
+./sys/module/rt2860v2_ap/sections/.text.Default_ChipAGCInit
+./sys/module/rt2860v2_ap/sections/.text.DisableAPMIMOPSv2
+./sys/module/rt2860v2_ap/sections/.text.EnableAPMIMOPSv2
+./sys/module/rt2860v2_ap/sections/.text.ChipBBPAdjust
+./sys/module/rt2860v2_ap/sections/.text.RxSensitivityTuning
+./sys/module/rt2860v2_ap/sections/.text.DisableAPMIMOPSv1
+./sys/module/rt2860v2_ap/sections/.text.EnableAPMIMOPSv1
+./sys/module/rt2860v2_ap/sections/.text.RtmpChipOpsHook
+./sys/module/rt2860v2_ap/sections/.text.ChipSwitchChannel
+./sys/module/rt2860v2_ap/sections/.text.NICInitRFRegisters
+./sys/module/rt2860v2_ap/sections/.text.RT635xReadRFRegister
+./sys/module/rt2860v2_ap/sections/.text.RT635xWriteRFRegister
+./sys/module/rt2860v2_ap/sections/.text.RT30xxReadRFRegister
+./sys/module/rt2860v2_ap/sections/.text.RTMP_ReadRF
+./sys/module/rt2860v2_ap/sections/.text.RT30xxWriteRFRegister
+./sys/module/rt2860v2_ap/sections/.text.RTMP_WriteRF
+./sys/module/rt2860v2_ap/sections/.text.SetLedCfg
+./sys/module/rt2860v2_ap/sections/.text.SetLedMode
+./sys/module/rt2860v2_ap/sections/.text.SetLedLinkStatus
+./sys/module/rt2860v2_ap/sections/.text.SWMCULedCtrlMain
+./sys/module/rt2860v2_ap/sections/.text.RTMPGetLEDSetting
+./sys/module/rt2860v2_ap/sections/.text.RTMPSetSignalLED
+./sys/module/rt2860v2_ap/sections/.text.RTMPStartLEDMode
+./sys/module/rt2860v2_ap/sections/.text.RTMPInitLEDMode
+./sys/module/rt2860v2_ap/sections/.text.SetWPSLinkStatus
+./sys/module/rt2860v2_ap/sections/.text.Show_LedCfg_Proc
+./sys/module/rt2860v2_ap/sections/.text.RTMPSetLEDStatus
+./sys/module/rt2860v2_ap/sections/.text.RTMPExitLEDMode
+./sys/module/rt2860v2_ap/sections/.text.rtmp_timer_SWMCULedCtrlMain
+./sys/module/rt2860v2_ap/sections/.text.Set_LedCheck_Proc
+./sys/module/rt2860v2_ap/sections/.text.Set_LedCfg_Proc
+./sys/module/rt2860v2_ap/sections/.text.ValidateChecksum
+./sys/module/rt2860v2_ap/sections/.text.WscGetAuthType
+./sys/module/rt2860v2_ap/sections/.text.WscGetEncryType
+./sys/module/rt2860v2_ap/sections/.text.WscGetAuthTypeStr
+./sys/module/rt2860v2_ap/sections/.text.WscGetEncryTypeStr
+./sys/module/rt2860v2_ap/sections/.text.WscGetAuthMode
+./sys/module/rt2860v2_ap/sections/.text.WscGetWepStatus
+./sys/module/rt2860v2_ap/sections/.text.WSC_HDR_BTN_Init
+./sys/module/rt2860v2_ap/sections/.text.WSC_HDR_BTN_Stop
+./sys/module/rt2860v2_ap/sections/.text.WscGetDataFromPeerByTag
+./sys/module/rt2860v2_ap/sections/.text.WscSkipTurnOffLEDTimer
+./sys/module/rt2860v2_ap/sections/.text.WscAPHasSecuritySetting
+./sys/module/rt2860v2_ap/sections/.text.WscSupportWPSLEDMode10
+./sys/module/rt2860v2_ap/sections/.text.WscSupportWPSLEDMode
+./sys/module/rt2860v2_ap/sections/.text.WscPBCSessionOverlapCheck
+./sys/module/rt2860v2_ap/sections/.text.WscSetEncrypType
+./sys/module/rt2860v2_ap/sections/.text.WscSetAuthMode
+./sys/module/rt2860v2_ap/sections/.text.WscMsgTypeSubst
+./sys/module/rt2860v2_ap/sections/.text.WscMaintainPeerList
+./sys/module/rt2860v2_ap/sections/.text.WscAssignEntryMAC
+./sys/module/rt2860v2_ap/sections/.text.WscApShowPeerList
+./sys/module/rt2860v2_ap/sections/.text.WscClearPeerList
+./sys/module/rt2860v2_ap/sections/.text.WscFindPeerEntry
+./sys/module/rt2860v2_ap/sections/.text.WscDelListEntryByMAC
+./sys/module/rt2860v2_ap/sections/.text.WscInsertPeerEntryByMAC
+./sys/module/rt2860v2_ap/sections/.text.WscPBC_DPID_FromSTA
+./sys/module/rt2860v2_ap/sections/.text.WscCheckWpsIeFromWpsAP
+./sys/module/rt2860v2_ap/sections/.text.WscCheckPeerDPID
+./sys/module/rt2860v2_ap/sections/.text.WscProfileRetryTimeout
+./sys/module/rt2860v2_ap/sections/.text.WscLEDTimer
+./sys/module/rt2860v2_ap/sections/.text.WscScanExec
+./sys/module/rt2860v2_ap/sections/.text.WSC_HDR_BTN_CheckHandler
+./sys/module/rt2860v2_ap/sections/.text.WscThreadInit
+./sys/module/rt2860v2_ap/sections/.text.WscRxMsgType
+./sys/module/rt2860v2_ap/sections/.text.WscGenerateUUID
+./sys/module/rt2860v2_ap/sections/.text.WscInitRegistrarPair
+./sys/module/rt2860v2_ap/sections/.text.WscGetConfigErrFromNack
+./sys/module/rt2860v2_ap/sections/.text.WscGetRegDataPIN
+./sys/module/rt2860v2_ap/sections/.text.WscWriteConfToAR9File
+./sys/module/rt2860v2_ap/sections/.text.WscWriteWpaPskToDatFile
+./sys/module/rt2860v2_ap/sections/.text.WscWriteSsidToDatFile
+./sys/module/rt2860v2_ap/sections/.text.WscWriteConfToDatFile
+./sys/module/rt2860v2_ap/sections/.text.WscInformFromWPA
+./sys/module/rt2860v2_ap/sections/.text.WscPushPBCAction
+./sys/module/rt2860v2_ap/sections/.text.WscStop
+./sys/module/rt2860v2_ap/sections/.text.WscThreadExit
+./sys/module/rt2860v2_ap/sections/.text.WscDelWPARetryTimer
+./sys/module/rt2860v2_ap/sections/.text.WpsSmProcess
+./sys/module/rt2860v2_ap/sections/.text.wsc_write_dat_file_thread
+./sys/module/rt2860v2_ap/sections/.text.WscGenRandomKey
+./sys/module/rt2860v2_ap/sections/.text.WscCreateProfileFromCfg
+./sys/module/rt2860v2_ap/sections/.text.WscBssWpsIESearchForPBC
+./sys/module/rt2860v2_ap/sections/.text.WscPBCBssTableSort
+./sys/module/rt2860v2_ap/sections/.text.WscPBCExec
+./sys/module/rt2860v2_ap/sections/.text.WscCheckNonce
+./sys/module/rt2860v2_ap/sections/.text.WscWriteConfToPortCfg
+./sys/module/rt2860v2_ap/sections/.text.WscUpdatePortCfgTimeout
+./sys/module/rt2860v2_ap/sections/.text.WscRandomGeneratePinCode
+./sys/module/rt2860v2_ap/sections/.text.WscRandomGen4digitPinCode
+./sys/module/rt2860v2_ap/sections/.text.WscScanTimeOutAction
+./sys/module/rt2860v2_ap/sections/.text.WscPBCTimeOutAction
+./sys/module/rt2860v2_ap/sections/.text.WscBuildAssocRespIE
+./sys/module/rt2860v2_ap/sections/.text.WscBuildProbeRespIE
+./sys/module/rt2860v2_ap/sections/.text.WscBuildBeaconIE
+./sys/module/rt2860v2_ap/sections/.text.WscInit
+./sys/module/rt2860v2_ap/sections/.text.WscSelectedRegistrar
+./sys/module/rt2860v2_ap/sections/.text.Wsc2MinsTimeOutAction
+./sys/module/rt2860v2_ap/sections/.text.WscSendEapRspId
+./sys/module/rt2860v2_ap/sections/.text.WscSendMessage
+./sys/module/rt2860v2_ap/sections/.text.WscSendNACK
+./sys/module/rt2860v2_ap/sections/.text.WscEapActionDisabled
+./sys/module/rt2860v2_ap/sections/.text.WscSendEapolStart
+./sys/module/rt2860v2_ap/sections/.text.WscSendEapReqId
+./sys/module/rt2860v2_ap/sections/.text.WscEAPOLStartAction
+./sys/module/rt2860v2_ap/sections/.text.WscSendEapFail
+./sys/module/rt2860v2_ap/sections/.text.WscTimeOutProcess
+./sys/module/rt2860v2_ap/sections/.text.WscSendUPnPMessage
+./sys/module/rt2860v2_ap/sections/.text.WscSendUPnPConfReqMsg
+./sys/module/rt2860v2_ap/sections/.text.WscGetConfWithoutTrigger
+./sys/module/rt2860v2_ap/sections/.text.WscUPnPErrHandle
+./sys/module/rt2860v2_ap/sections/.text.WscEapApProxyAction
+./sys/module/rt2860v2_ap/sections/.text.WscEAPOLTimeOutAction
+./sys/module/rt2860v2_ap/sections/.text.WscUPnPMsgTimeOutAction
+./sys/module/rt2860v2_ap/sections/.text.WscM2DTimeOutAction
+./sys/module/rt2860v2_ap/sections/.text.WscEapRegistrarAction
+./sys/module/rt2860v2_ap/sections/.text.WscEapEnrolleeAction
+./sys/module/rt2860v2_ap/sections/.text.WscEAPAction
+./sys/module/rt2860v2_ap/sections/.text.WscInitClientTimers
+./sys/module/rt2860v2_ap/sections/.text.WscInitCommonTimers
+./sys/module/rt2860v2_ap/sections/.text.WscStateMachineInit
+./sys/module/rt2860v2_ap/sections/.text.AppendWSCTLV
+./sys/module/rt2860v2_ap/sections/.text.ProcessMessageM2D
+./sys/module/rt2860v2_ap/sections/.text.WscDeriveKey
+./sys/module/rt2860v2_ap/sections/.text.WscParseEncrSettings
+./sys/module/rt2860v2_ap/sections/.text.ProcessMessageM7
+./sys/module/rt2860v2_ap/sections/.text.ProcessMessageM6
+./sys/module/rt2860v2_ap/sections/.text.ProcessMessageM5
+./sys/module/rt2860v2_ap/sections/.text.ProcessMessageM4
+./sys/module/rt2860v2_ap/sections/.text.ProcessMessageM3
+./sys/module/rt2860v2_ap/sections/.text.ProcessMessageM8
+./sys/module/rt2860v2_ap/sections/.text.ProcessMessageM2
+./sys/module/rt2860v2_ap/sections/.text.ProcessMessageM1
+./sys/module/rt2860v2_ap/sections/.text.BuildMessageNACK
+./sys/module/rt2860v2_ap/sections/.text.BuildMessageACK
+./sys/module/rt2860v2_ap/sections/.text.BuildMessageDONE
+./sys/module/rt2860v2_ap/sections/.text.BuildMessageM3
+./sys/module/rt2860v2_ap/sections/.text.BuildMessageM8
+./sys/module/rt2860v2_ap/sections/.text.BuildMessageM7
+./sys/module/rt2860v2_ap/sections/.text.BuildMessageM6
+./sys/module/rt2860v2_ap/sections/.text.BuildMessageM5
+./sys/module/rt2860v2_ap/sections/.text.BuildMessageM4
+./sys/module/rt2860v2_ap/sections/.text.BuildMessageM2D
+./sys/module/rt2860v2_ap/sections/.text.BuildMessageM2
+./sys/module/rt2860v2_ap/sections/.text.BuildMessageM1
+./sys/module/rt2860v2_ap/sections/.text.DH_SecretKey_Generate
+./sys/module/rt2860v2_ap/sections/.text.DH_PublicKey_Generate
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_ClearHighBits
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_BitsOfBI
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_GetBitValue
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_GetByteValue
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_UnsignedCompare
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_BI2Bin
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_Free_AllocSize
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_Free
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_Init
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_AllocSize
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_Bin2BI
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_Copy
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_Mul
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_Sub
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_Add
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_Square
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_Montgomery_Reduction
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_Div
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_Montgomery_ExpMod
+./sys/module/rt2860v2_ap/sections/.text.BigInteger_Print
+./sys/module/rt2860v2_ap/sections/.text.WscGetXmlKeyIndex
+./sys/module/rt2860v2_ap/sections/.text.WscPassXmlDeclare
+./sys/module/rt2860v2_ap/sections/.text.WscWriteProfileToUfdFile
+./sys/module/rt2860v2_ap/sections/.text.WscGetXmlKey
+./sys/module/rt2860v2_ap/sections/.text.WscGetXmlEncr
+./sys/module/rt2860v2_ap/sections/.text.WscGetXmlAuth
+./sys/module/rt2860v2_ap/sections/.text.WscGetXmlSSID
+./sys/module/rt2860v2_ap/sections/.text.WscReadProfileFromUfdFile
+./sys/module/rt2860v2_ap/sections/.text.WscSendEapFragData
+./sys/module/rt2860v2_ap/sections/.text.WscSendEapFragAck
+./sys/module/rt2860v2_ap/sections/.text.WscParseV2SubItem
+./sys/module/rt2860v2_ap/sections/.text.WscAppendV2SubItem
+./sys/module/rt2860v2_ap/sections/.text.WscGenV2Msg
+./sys/module/rt2860v2_ap/sections/.text.WscOnOff
+./sys/module/rt2860v2_ap/sections/.text.WscCheckPinAttackCount
+./sys/module/rt2860v2_ap/sections/.text.WscSetupLockTimeout
+./sys/module/rt2860v2_ap/sections/.text.WscAddEntryToAclList
+./sys/module/rt2860v2_ap/sections/.text.RT28xx_MBSS_IdxGet
+./sys/module/rt2860v2_ap/sections/.text.MBSS_Open
+./sys/module/rt2860v2_ap/sections/.text.MBSS_PacketSend
+./sys/module/rt2860v2_ap/sections/.text.MBSS_Close
+./sys/module/rt2860v2_ap/sections/.text.MBSS_Remove
+./sys/module/rt2860v2_ap/sections/.text.MBSS_Init
+./sys/module/rt2860v2_ap/sections/.text.MBSS_VirtualIF_Ioctl
+./sys/module/rt2860v2_ap/sections/.text.MBSS_VirtualIF_PacketSend
+./sys/module/rt2860v2_ap/sections/.text.RT28xx_MBSS_Remove
+./sys/module/rt2860v2_ap/sections/.text.MBSS_VirtualIF_Open
+./sys/module/rt2860v2_ap/sections/.text.MBSS_VirtualIF_Close
+./sys/module/rt2860v2_ap/sections/.text.RT28xx_MBSS_Init
+./sys/module/rt2860v2_ap/sections/.text.RT6352_AsicAntennaDefaultReset
+./sys/module/rt2860v2_ap/sections/.text.RT635xGetTssiInfo
+./sys/module/rt2860v2_ap/sections/.text.RT635xInitRfPaModeTable
+./sys/module/rt2860v2_ap/sections/.text.RT6352_Init
+./sys/module/rt2860v2_ap/sections/.text.RT6352_RTMPSetAGCInitValue
+./sys/module/rt2860v2_ap/sections/.text.NICInitRT6352MacRegisters
+./sys/module/rt2860v2_ap/sections/.text.RT6352_AsicExtraPowerOverMAC
+./sys/module/rt2860v2_ap/sections/.text.RT6352_RTMPReadTxPwrPerRate
+./sys/module/rt2860v2_ap/sections/.text.SignedExtension6To8
+./sys/module/rt2860v2_ap/sections/.text.RT635xInitMcsPowerTable
+./sys/module/rt2860v2_ap/sections/.text.RT6352_InitDesiredTSSITable
+./sys/module/rt2860v2_ap/sections/.text.lin2dBd
+./sys/module/rt2860v2_ap/sections/.text.NICInitRT6352RFRegisters
+./sys/module/rt2860v2_ap/sections/.text.RT6352_TemperatureCalibration
+./sys/module/rt2860v2_ap/sections/.text.RT6352_ChipBBPAdjust
+./sys/module/rt2860v2_ap/sections/.text.NICInitRT6352BbpRegisters
+./sys/module/rt2860v2_ap/sections/.text.RT6352_Temperature_Init
+./sys/module/rt2860v2_ap/sections/.text.RT635xCheckTssiCompensation
+./sys/module/rt2860v2_ap/sections/.text.RT635xTriggerTssiCompensation
+./sys/module/rt2860v2_ap/sections/.text.RT635xTssiCompensation
+./sys/module/rt2860v2_ap/sections/.text.RT635xTssiDcCalibration
+./sys/module/rt2860v2_ap/sections/.text.RT6352_ChipSwitchChannel
+./sys/module/rt2860v2_ap/sections/.text.RT6352_AsicAdjustTxPower
+./sys/module/rt2860v2_ap/sections/.text.RT635xATEAsicExtraPowerOverMAC
+./sys/module/rt2860v2_ap/sections/.text.RT635xATETxPwrHandler
+./sys/module/rt2860v2_ap/sections/.text.RT635xATEAsicSetTxRxPath
+./sys/module/rt2860v2_ap/sections/.text.RT635xATEAsicCompensatePowerViaBBP
+./sys/module/rt2860v2_ap/sections/.text.RT635xATETssiCompensation
+./sys/module/rt2860v2_ap/sections/.text.RT635x_Set_ATE_TX_FREQ_OFFSET_Proc
+./sys/module/rt2860v2_ap/sections/.text.RT635x_Set_ATE_TX_BW_Proc
+./sys/module/rt2860v2_ap/sections/.text.RT635xATEAsicGetTxPowerOffset
+./sys/module/rt2860v2_ap/sections/.text.RT635xATERxVGAInit
+./sys/module/rt2860v2_ap/sections/.text.RT635xATEFilterCalibration
+./sys/module/rt2860v2_ap/sections/.text.RT635xATEAsicSwitchChannel
+./sys/module/rt2860v2_ap/sections/.reginfo
+./sys/module/rt2860v2_ap/sections/.rodata
+./sys/module/rt2860v2_ap/sections/.rodata.str1.4
+./sys/module/rt2860v2_ap/sections/__param
+./sys/module/rt2860v2_ap/sections/.data
+./sys/module/rt2860v2_ap/sections/.gnu.linkonce.this_module
+./sys/module/rt2860v2_ap/sections/.bss
+./sys/module/rt2860v2_ap/sections/.symtab
+./sys/module/rt2860v2_ap/sections/.strtab
+./sys/module/rt2860v2_ap/notes
+./sys/module/rt2860v2_ap/notes/.note.gnu.build-id
+./sys/module/rt_rdm
+./sys/module/rt_rdm/holders
+./sys/module/rt_rdm/initstate
+./sys/module/rt_rdm/refcnt
+./sys/module/rt_rdm/sections
+./sys/module/rt_rdm/sections/.note.gnu.build-id
+./sys/module/rt_rdm/sections/.text.rdm_open
+./sys/module/rt_rdm/sections/.text.rdm_release
+./sys/module/rt_rdm/sections/.text.rdm_ioctl
+./sys/module/rt_rdm/sections/.fixup
+./sys/module/rt_rdm/sections/.text.rdm_exit
+./sys/module/rt_rdm/sections/.text.rdm_init
+./sys/module/rt_rdm/sections/.reginfo
+./sys/module/rt_rdm/sections/.rodata
+./sys/module/rt_rdm/sections/.rodata.str1.4
+./sys/module/rt_rdm/sections/__ex_table
+./sys/module/rt_rdm/sections/__param
+./sys/module/rt_rdm/sections/.data
+./sys/module/rt_rdm/sections/.gnu.linkonce.this_module
+./sys/module/rt_rdm/sections/.symtab
+./sys/module/rt_rdm/sections/.strtab
+./sys/module/rt_rdm/notes
+./sys/module/rt_rdm/notes/.note.gnu.build-id
+./sys/module/gpio_buttons
+./sys/module/gpio_buttons/holders
+./sys/module/gpio_buttons/initstate
+./sys/module/gpio_buttons/refcnt
+./sys/module/gpio_buttons/sections
+./sys/module/gpio_buttons/sections/.note.gnu.build-id
+./sys/module/gpio_buttons/sections/.exit.text
+./sys/module/gpio_buttons/sections/.devexit.text
+./sys/module/gpio_buttons/sections/.text.gpio_buttons_check_state
+./sys/module/gpio_buttons/sections/.devinit.text
+./sys/module/gpio_buttons/sections/.text.gpio_buttons_poll
+./sys/module/gpio_buttons/sections/.init.text
+./sys/module/gpio_buttons/sections/.reginfo
+./sys/module/gpio_buttons/sections/.rodata.str1.4
+./sys/module/gpio_buttons/sections/.data
+./sys/module/gpio_buttons/sections/.gnu.linkonce.this_module
+./sys/module/gpio_buttons/sections/.symtab
+./sys/module/gpio_buttons/sections/.strtab
+./sys/module/gpio_buttons/notes
+./sys/module/gpio_buttons/notes/.note.gnu.build-id
+./sys/module/gpio_buttons/drivers
+./sys/module/gpio_buttons/drivers/platform:gpio-buttons
+./sys/module/button_hotplug
+./sys/module/button_hotplug/holders
+./sys/module/button_hotplug/version
+./sys/module/button_hotplug/srcversion
+./sys/module/button_hotplug/initstate
+./sys/module/button_hotplug/refcnt
+./sys/module/button_hotplug/sections
+./sys/module/button_hotplug/sections/.note.gnu.build-id
+./sys/module/button_hotplug/sections/.exit.text
+./sys/module/button_hotplug/sections/.text.button_hotplug_disconnect
+./sys/module/button_hotplug/sections/.text.button_hotplug_connect
+./sys/module/button_hotplug/sections/.text.button_hotplug_event
+./sys/module/button_hotplug/sections/.text.bh_event_add_var
+./sys/module/button_hotplug/sections/.text.button_hotplug_work
+./sys/module/button_hotplug/sections/.init.text
+./sys/module/button_hotplug/sections/.reginfo
+./sys/module/button_hotplug/sections/.rodata.str1.4
+./sys/module/button_hotplug/sections/.rodata
+./sys/module/button_hotplug/sections/.data
+./sys/module/button_hotplug/sections/.gnu.linkonce.this_module
+./sys/module/button_hotplug/sections/.bss
+./sys/module/button_hotplug/sections/.symtab
+./sys/module/button_hotplug/sections/.strtab
+./sys/module/button_hotplug/notes
+./sys/module/button_hotplug/notes/.note.gnu.build-id
+./sys/module/sch_sfq
+./sys/module/sch_sfq/holders
+./sys/module/sch_sfq/initstate
+./sys/module/sch_sfq/refcnt
+./sys/module/sch_sfq/sections
+./sys/module/sch_sfq/sections/.note.gnu.build-id
+./sys/module/sch_sfq/sections/.text.sfq_peek
+./sys/module/sch_sfq/sections/.text.sfq_dequeue
+./sys/module/sch_sfq/sections/.text.sfq_get
+./sys/module/sch_sfq/sections/.text.sfq_find_tcf
+./sys/module/sch_sfq/sections/.text.sfq_dump_class
+./sys/module/sch_sfq/sections/.text.sfq_walk
+./sys/module/sch_sfq/sections/.exit.text
+./sys/module/sch_sfq/sections/.text.sfq_dump_class_stats
+./sys/module/sch_sfq/sections/.text.sfq_dump
+./sys/module/sch_sfq/sections/.text.sfq_destroy
+./sys/module/sch_sfq/sections/.text.sfq_reset
+./sys/module/sch_sfq/sections/.text.sfq_drop
+./sys/module/sch_sfq/sections/.text.sfq_perturbation
+./sys/module/sch_sfq/sections/.text.sfq_init
+./sys/module/sch_sfq/sections/.text.sfq_enqueue
+./sys/module/sch_sfq/sections/.init.text
+./sys/module/sch_sfq/sections/.reginfo
+./sys/module/sch_sfq/sections/.rodata.str1.4
+./sys/module/sch_sfq/sections/.rodata
+./sys/module/sch_sfq/sections/.data
+./sys/module/sch_sfq/sections/.gnu.linkonce.this_module
+./sys/module/sch_sfq/sections/.symtab
+./sys/module/sch_sfq/sections/.strtab
+./sys/module/sch_sfq/notes
+./sys/module/sch_sfq/notes/.note.gnu.build-id
+./sys/module/cls_fw
+./sys/module/cls_fw/holders
+./sys/module/cls_fw/initstate
+./sys/module/cls_fw/refcnt
+./sys/module/cls_fw/sections
+./sys/module/cls_fw/sections/.note.gnu.build-id
+./sys/module/cls_fw/sections/.text.fw_get
+./sys/module/cls_fw/sections/.text.fw_put
+./sys/module/cls_fw/sections/.text.fw_init
+./sys/module/cls_fw/sections/.text.fw_walk
+./sys/module/cls_fw/sections/.exit.text
+./sys/module/cls_fw/sections/.text.fw_dump
+./sys/module/cls_fw/sections/.text.fw_delete
+./sys/module/cls_fw/sections/.text.fw_destroy
+./sys/module/cls_fw/sections/.text.fw_change_attrs
+./sys/module/cls_fw/sections/.text.fw_change
+./sys/module/cls_fw/sections/.text.fw_classify
+./sys/module/cls_fw/sections/.init.text
+./sys/module/cls_fw/sections/.reginfo
+./sys/module/cls_fw/sections/.rodata.str1.4
+./sys/module/cls_fw/sections/.rodata
+./sys/module/cls_fw/sections/.data
+./sys/module/cls_fw/sections/.gnu.linkonce.this_module
+./sys/module/cls_fw/sections/.symtab
+./sys/module/cls_fw/sections/.strtab
+./sys/module/cls_fw/notes
+./sys/module/cls_fw/notes/.note.gnu.build-id
+./sys/module/cls_u32
+./sys/module/cls_u32/holders
+./sys/module/cls_u32/initstate
+./sys/module/cls_u32/refcnt
+./sys/module/cls_u32/sections
+./sys/module/cls_u32/sections/.note.gnu.build-id
+./sys/module/cls_u32/sections/.text.u32_get
+./sys/module/cls_u32/sections/.text.u32_put
+./sys/module/cls_u32/sections/.text.u32_walk
+./sys/module/cls_u32/sections/.exit.text
+./sys/module/cls_u32/sections/.text.u32_dump
+./sys/module/cls_u32/sections/.text.u32_destroy_key
+./sys/module/cls_u32/sections/.text.u32_destroy_hnode
+./sys/module/cls_u32/sections/.text.u32_delete
+./sys/module/cls_u32/sections/.text.u32_destroy
+./sys/module/cls_u32/sections/.text.u32_init
+./sys/module/cls_u32/sections/.text.u32_set_parms
+./sys/module/cls_u32/sections/.text.u32_change
+./sys/module/cls_u32/sections/.text.u32_classify
+./sys/module/cls_u32/sections/.init.text
+./sys/module/cls_u32/sections/.reginfo
+./sys/module/cls_u32/sections/.rodata.str1.4
+./sys/module/cls_u32/sections/.rodata
+./sys/module/cls_u32/sections/.data
+./sys/module/cls_u32/sections/.gnu.linkonce.this_module
+./sys/module/cls_u32/sections/.symtab
+./sys/module/cls_u32/sections/.strtab
+./sys/module/cls_u32/notes
+./sys/module/cls_u32/notes/.note.gnu.build-id
+./sys/module/cls_flow
+./sys/module/cls_flow/holders
+./sys/module/cls_flow/initstate
+./sys/module/cls_flow/refcnt
+./sys/module/cls_flow/sections
+./sys/module/cls_flow/sections/.note.gnu.build-id
+./sys/module/cls_flow/sections/.text.flow_get
+./sys/module/cls_flow/sections/.text.flow_put
+./sys/module/cls_flow/sections/.text.flow_walk
+./sys/module/cls_flow/sections/.exit.text
+./sys/module/cls_flow/sections/.text.flow_dump
+./sys/module/cls_flow/sections/.text.flow_destroy_filter
+./sys/module/cls_flow/sections/.text.flow_delete
+./sys/module/cls_flow/sections/.text.flow_destroy
+./sys/module/cls_flow/sections/.text.flow_perturbation
+./sys/module/cls_flow/sections/.text.flow_get_proto_src
+./sys/module/cls_flow/sections/.text.flow_get_proto_dst
+./sys/module/cls_flow/sections/.text.flow_init
+./sys/module/cls_flow/sections/.text.flow_change
+./sys/module/cls_flow/sections/.text.flow_classify
+./sys/module/cls_flow/sections/.init.text
+./sys/module/cls_flow/sections/.reginfo
+./sys/module/cls_flow/sections/.rodata.str1.4
+./sys/module/cls_flow/sections/.rodata
+./sys/module/cls_flow/sections/.data
+./sys/module/cls_flow/sections/.gnu.linkonce.this_module
+./sys/module/cls_flow/sections/.symtab
+./sys/module/cls_flow/sections/.strtab
+./sys/module/cls_flow/notes
+./sys/module/cls_flow/notes/.note.gnu.build-id
+./sys/block
+./sys/block/mtdblock0
+./sys/block/mtdblock1
+./sys/block/mtdblock2
+./sys/block/mtdblock3
+./sys/block/mtdblock4
+./sys/block/mtdblock5
+./sys/block/mtdblock6
+./sys/block/mtdblock7
+./sys/block/mtdblock8
+./sys/block/mtdblock9
+./sys/block/mtdblock10
+./tmp
+./tmp/luci-indexcache
+./tmp/wanconf
+./tmp/luci-modulecache
+./tmp/lib
+./tmp/lib/luci-bwc
+./tmp/lib/luci-bwc/load
+./tmp/lib/luci-bwc/connections
+./tmp/lib/luci-bwc/if
+./tmp/lib/luci-bwc/if/eth0.4094
+./tmp/lib/luci-bwc/if/eth0.5
+./tmp/lib/luci-bwc/if/ra3
+./tmp/lib/luci-bwc/if/ra2
+./tmp/lib/luci-bwc/if/ra1
+./tmp/lib/luci-bwc/if/br1
+./tmp/lib/luci-bwc/if/br-lan
+./tmp/lib/luci-bwc/if/ra0
+./tmp/lib/luci-bwc/if/imq1
+./tmp/lib/luci-bwc/if/imq0
+./tmp/lib/luci-bwc/if/eth1_3
+./tmp/lib/luci-bwc/if/eth1_2
+./tmp/lib/luci-bwc/if/eth1_1
+./tmp/lib/luci-bwc/if/eth1_0
+./tmp/lib/luci-bwc/if/eth0
+./tmp/lib/luci-bwc/if/eth1
+./tmp/resolv.conf
+./tmp/dhcp.leases
+./tmp/.wanctl
+./tmp/.wanctl/wanctl.conf
+./tmp/TZ
+./tmp/signature
+./tmp/MME_devinfo
+./tmp/.REVISION
+./tmp/resolv.conf.auto
+./tmp/.uci
+./tmp/state
+./tmp/state/firewall
+./tmp/lock
+./tmp/log
+./tmp/log/messages
+./tmp/log/lastlog
+./tmp/log/wtmp
+./tmp/run
+./tmp/run/igmpproxy.pid
+./tmp/run/igmp.start
+./tmp/run/qos.start
+./tmp/run/dnsmasq.pid
+./tmp/run/uhttpd_main.pid
+./tmp/run/dropbear.1.pid
+./tmp/run/firewall.start
+./tmp/run/netconfig
+./tmp/run/netconfig/eth0.5
+./tmp/run/netconfig/eth0.5/netcfg.conf
+./tmp/run/wand.pid
+./tmp/run/syslogd.pid
+./tmp/overlay
+./tmp/sysinfo
+./tmp/sysinfo/model
+./tmp/sysinfo/board_name
+./var
+./vendor
+./vendor/uci-defaults
+./vendor/uci-defaults/vendor-settings
+./vendor/usr
+./vendor/usr/lib
+./vendor/usr/lib/lua
+./vendor/usr/lib/lua/luci
+./vendor/usr/lib/lua/luci/view
+./vendor/usr/lib/lua/luci/view/themes
+./vendor/usr/lib/lua/luci/view/themes/r3000_base
+./vendor/usr/lib/lua/luci/view/themes/r3000_base/footer.htm
+./vendor/usr/lib/lua/luci/view/themes/r3000_base/header.htm
+./vendor/usr/lib/lua/luci/view/themes/r3000_base/header_help.htm
+./vendor/vendor
+./vendor/www
+./vendor/www/luci-static
+./vendor/www/luci-static/r3000_base
+./vendor/www/luci-static/r3000_base/css
+./vendor/www/luci-static/r3000_base/css/cascade.css
+./vendor/www/luci-static/r3000_base/css/ie6.css
+./vendor/www/luci-static/r3000_base/css/ie6_ex.css
+./vendor/www/luci-static/r3000_base/css/ie7.css
+./vendor/www/luci-static/r3000_base/css/ie8.css
+./vendor/www/luci-static/r3000_base/images
+./vendor/www/luci-static/r3000_base/images/bg.gif
+./vendor/www/luci-static/r3000_base/images/footer.gif
+./vendor/www/luci-static/r3000_base/images/maintitle.gif
+./vendor/www/luci-static/r3000_base/images/menu1.gif
+./vendor/www/luci-static/r3000_base/images/menu2.gif
+./vendor/www/luci-static/r3000_base/images/menubar1.gif
+./vendor/www/luci-static/r3000_base/images/menubar2.gif
+./vendor/www/luci-static/r3000_base/logo.jpg
+./vendor/www/luci-static/r3000_base/toper.gif
+./www
+./www/cgi-bin
+./www/cgi-bin/luci
+./www/index.html
+./www/luci-static
+./www/luci-static/help_asp.htm
+./www/luci-static/help_content_asp.htm
+./www/luci-static/help_content_asp1.htm
+./www/luci-static/openwrt.org
+./www/luci-static/openwrt.org/bg.gif
+./www/luci-static/openwrt.org/cascade.css
+./www/luci-static/openwrt.org/footer.gif
+./www/luci-static/openwrt.org/ie6.css
+./www/luci-static/openwrt.org/ie6_ex.css
+./www/luci-static/openwrt.org/ie7.css
+./www/luci-static/openwrt.org/ie8.css
+./www/luci-static/openwrt.org/left.gif
+./www/luci-static/openwrt.org/left2.gif
+./www/luci-static/openwrt.org/lobger.jpg
+./www/luci-static/openwrt.org/loginop.gif
+./www/luci-static/openwrt.org/logo.jpg
+./www/luci-static/openwrt.org/maintitle.gif
+./www/luci-static/openwrt.org/menu1.gif
+./www/luci-static/openwrt.org/menu2.gif
+./www/luci-static/openwrt.org/menubar1.gif
+./www/luci-static/openwrt.org/menubar2.gif
+./www/luci-static/openwrt.org/menubar3.gif
+./www/luci-static/openwrt.org/menubar4.gif
+./www/luci-static/openwrt.org/right.gif
+./www/luci-static/openwrt.org/tabbg.png
+./www/luci-static/openwrt.org/topbar.gif
+./www/luci-static/openwrt.org/toper.gif
+./www/luci-static/r3000_base
+./www/luci-static/resources
+./www/luci-static/resources/Dropdowns.js
+./www/luci-static/resources/VarType.js
+./www/luci-static/resources/XHTML1.js
+./www/luci-static/resources/bandwidth.svg
+./www/luci-static/resources/cbi
+./www/luci-static/resources/cbi/add.gif
+./www/luci-static/resources/cbi/apply.gif
+./www/luci-static/resources/cbi/arrow.gif
+./www/luci-static/resources/cbi/down.gif
+./www/luci-static/resources/cbi/download.gif
+./www/luci-static/resources/cbi/edit.gif
+./www/luci-static/resources/cbi/fieldadd.gif
+./www/luci-static/resources/cbi/file.gif
+./www/luci-static/resources/cbi/find.gif
+./www/luci-static/resources/cbi/folder.gif
+./www/luci-static/resources/cbi/help.gif
+./www/luci-static/resources/cbi/key.gif
+./www/luci-static/resources/cbi/link.gif
+./www/luci-static/resources/cbi/reload.gif
+./www/luci-static/resources/cbi/remove.gif
+./www/luci-static/resources/cbi/reset.gif
+./www/luci-static/resources/cbi/save.gif
+./www/luci-static/resources/cbi/up.gif
+./www/luci-static/resources/cbi/user.gif
+./www/luci-static/resources/cbi.js
+./www/luci-static/resources/connections.svg
+./www/luci-static/resources/icons
+./www/luci-static/resources/icons/bridge.png
+./www/luci-static/resources/icons/bridge_disabled.png
+./www/luci-static/resources/icons/encryption.png
+./www/luci-static/resources/icons/encryption_disabled.png
+./www/luci-static/resources/icons/ethernet.png
+./www/luci-static/resources/icons/ethernet_disabled.png
+./www/luci-static/resources/icons/loading.gif
+./www/luci-static/resources/icons/signal-0-25.png
+./www/luci-static/resources/icons/signal-0.png
+./www/luci-static/resources/icons/signal-25-50.png
+./www/luci-static/resources/icons/signal-50-75.png
+./www/luci-static/resources/icons/signal-75-100.png
+./www/luci-static/resources/icons/signal-none.png
+./www/luci-static/resources/icons/switch.png
+./www/luci-static/resources/icons/switch_disabled.png
+./www/luci-static/resources/icons/wifi.png
+./www/luci-static/resources/icons/wifi_big.png
+./www/luci-static/resources/icons/wifi_big_disabled.png
+./www/luci-static/resources/icons/wifi_disabled.png
+./www/luci-static/resources/load.svg
+./www/luci-static/resources/xhr.js
+root@MSS5004W:/# find -file *.bin
+find: unrecognized: -file
+BusyBox v1.17.3 (2016-12-21 12:02:21 CST) multi-call binary.
+
+Usage: find [PATH]... [EXPRESSION]
+
+Search for files. The default PATH is the current directory,
+default EXPRESSION is '-print'
+
+EXPRESSION may consist of:
+        -follow         Follow symlinks
+        -xdev           Don't descend directories on other filesystems
+        -maxdepth N     Descend at most N levels. -maxdepth 0 applies
+                        tests/actions to command line arguments only
+        -mindepth N     Don't act on first N levels
+        -name PATTERN   File name (w/o directory name) matches PATTERN
+        -iname PATTERN  Case insensitive -name
+        -path PATTERN   Path matches PATTERN
+        -regex PATTERN  Path matches regex PATTERN
+        -type X         File type is X (X is one of: f,d,l,b,c,...)
+        -perm NNN       Permissions match any of (+NNN), all of (-NNN),
+                        or exactly NNN
+        -user NAME      File is owned by user NAME (numeric user ID allowed)
+        -group NAME     File belongs to group NAME (numeric group ID allowed)
+        -depth          Process directory name after traversing it
+        -size N[bck]    File size is N (c:bytes,k:kbytes,b:512 bytes(def.))
+                        +/-N: file size is bigger/smaller than N
+        -print          Print (default and assumed)
+        -print0         Delimit output with null characters rather than
+                        newlines
+        -exec CMD ARG ; Run CMD with all instances of {} replaced by the
+                        matching files
+        -prune          Stop traversing current subtree
+        (EXPR)          Group an expression
+
+root@MSS5004W:/# find -name *.bin
+./usr/lib/crda/regulatory.bin
+./rom/usr/lib/crda/regulatory.bin
+root@MSS5004W:/# cd usr/lib/crda/
+root@MSS5004W:/usr/lib/crda# ll
+-ash: ll: not found
+root@MSS5004W:/usr/lib/crda# ls
+regulatory.bin
+root@MSS5004W:/usr/lib/crda# ls -l regulatory.bin
+-rw-r--r--    1 root     root          3268 Oct 30  2018 regulatory.bin
+root@MSS5004W:/usr/lib/crda# cat regulatory.bin
+RGDB
+w▒
+▒
+ ▒▒,
+    ,▒,▒,
+▒
+▒$▒▒%▒P▒@N▒PP▒@PQTP▒@S▒PW ▒▒@PP▒▒@W▒X▒▒@N▒PPN PQTPN W▒X▒N $▒▒%▒@▒@%}▒%▒PN %▒&0N J▒K9▒'J▒L$0▒@K9▒K▒▒'L▒pL'L▒pM▒▒▒@M▒M5▒'S▒PW ▒N NP▒@S▒PU▒0▒@W▒XX▒▒▒@S▒PUs▒@V6PW ▒▒@Pi▒QTP▒@p▒▒T▒\▒tt,▒T▒▒▒▒T▒$$$($4$@$X▒T▒4▒T▒L▒D▒▒4▒L▒T▒▒▒D▒$▒T▒$▒D▒4▒▒T▒▒T▒,▒4▒▒Dddd▒L|l▒T▒<▒<L
+`l▒▒▒▒▒▒P▒▒$8▒@▒$8▒▒▒0▒▒L▒0▒▒<P▒▒<▒<▒
+<▒<h▒▒<t▒▒<▒<▒▒X▒<8▒<\<P▒
+<▒< ▒<
+H
+<,▒<\<P▒<▒▒▒<P▒< ▒▒<8▒|▒p▒< ▒dH▒▒▒<00hAEDAL(AMtANDAR▒ATDAU@AWDAZ▒BADBB@BBEDBG▒BH▒BL▒BN▒BO4BR▒BYDBZ4CA▒CHDCL▒CN(CO▒CR0CSDCYDCZ0DEIIEDIL▒IN▒IR(ISDITDJM▒JOTJP▒KE(KHDKP▒KRKW`KLB(LIDLK▒LTDLUDLVDMMC▒MKDMO@MTDMX▒MYdNL▒NODNP(NZ▒OM▒PA▒PE(PG▒PH(PK(PLDPR▒PTDQA(RODRUX
+VN`YZA▒Z▒▒▒z▒6▒
+▒▒zZ▒4t▒▒1X▒+wl z▒ yD▒\p▒▒oݦ▒▒Ý4▒4"֜▒▒v
+▒▒      ▒J▒▒▒▒x[▒{▒Zg-՚▒O▒n]▒K▒▒h▒Lj▒  ▒
+H▒▒͍▒▒▒
+▒▒yo▒w▒▒▒e=ɲI▒▒4▒▒)▒▒▒Z▒_)3▒N1▒ ▒X긌▒'7▒l▒▒yl▒
+bS▒)&Q▒I▒▒%▒4`▒E▒▒▒root@MSS5004W:/usr/lib/crda# PuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYuTTYPuTTYPuTTYPuTTY
+PuTTYPuTTYPuTTY
+-ash: PuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuund
+root@MSS5004W:/usr/lib/crda#
+root@MSS5004W:/usr/lib/crda#
+root@MSS5004W:/usr/lib/crda#
+root@MSS5004W:/usr/lib/crda#
+root@MSS5004W:/usr/lib/crda# ll
+-ash: ll: not found
+root@MSS5004W:/usr/lib/crda# ls
+regulatory.bin
+root@MSS5004W:/usr/lib/crda# binwalk regulatory.bin
+-ash: binwalk: not found
+root@MSS5004W:/usr/lib/crda# ls
+regulatory.bin
+root@MSS5004W:/usr/lib/crda# cd ..
+root@MSS5004W:/usr/lib# cd /
+root@MSS5004W:/# ls
+bin      dev      etc      lib      mnt      overlay  proc     rom      root     sbin     sys      tmp      usr      var      ve
+root@MSS5004W:/#
+root@MSS5004W:/#
+root@MSS5004W:/#
+root@MSS5004W:/# df
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 3328      3328         0 100% /rom
+tmpfs                    31116       272     30844   1% /tmp
+tmpfs                      512         0       512   0% /dev
+/dev/mtdblock7            2048       288      1760  14% /overlay
+mini_fo:/overlay          3328      3328         0 100% /
+/dev/mtdblock8             128       128         0 100% /vendor
+root@MSS5004W:/# df -u
+df: invalid option -- u
+BusyBox v1.17.3 (2016-12-21 12:02:21 CST) multi-call binary.
+
+Usage: df [-Pkmh] [FILESYSTEM]...
+
+Print filesystem usage statistics
+
+Options:
+        -P      POSIX output format
+        -k      1024-byte blocks (default)
+        -m      1M-byte blocks
+        -h      Human readable (e.g. 1K 243M 2G)
+
+root@MSS5004W:/# df -k
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root                 3328      3328         0 100% /rom
+tmpfs                    31116       272     30844   1% /tmp
+tmpfs                      512         0       512   0% /dev
+/dev/mtdblock7            2048       288      1760  14% /overlay
+mini_fo:/overlay          3328      3328         0 100% /
+/dev/mtdblock8             128       128         0 100% /vendor
+root@MSS5004W:/# df -h
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 3.3M      3.3M         0 100% /rom
+tmpfs                    30.4M    272.0K     30.1M   1% /tmp
+tmpfs                   512.0K         0    512.0K   0% /dev
+/dev/mtdblock7            2.0M    288.0K      1.7M  14% /overlay
+mini_fo:/overlay          3.3M      3.3M         0 100% /
+/dev/mtdblock8          128.0K    128.0K         0 100% /vendor
+root@MSS5004W:/# ifconfig
+br-lan    Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:38
+          inet addr:192.168.1.1  Bcast:192.168.1.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3078 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1390 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:372295 (363.5 KiB)  TX bytes:736768 (719.5 KiB)
+
+br1       Link encap:Ethernet  HWaddr CE:B3:44:6F:48:9D
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth0      Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:39
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:8 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:448 (448.0 B)
+
+eth0.4094 Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:39
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth0.5    Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:39
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:8 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:400 (400.0 B)
+
+eth1      Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:3A
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3900 errors:0 dropped:9 overruns:0 frame:0
+          TX packets:1406 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:1205025 (1.1 MiB)  TX bytes:743824 (726.3 KiB)
+          Interrupt:5
+
+eth1_0    Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:3A
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3891 errors:9 dropped:0 overruns:0 frame:0
+          TX packets:1398 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:1212130 (1.1 MiB)  TX bytes:745524 (728.0 KiB)
+
+eth1_1    Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:3A
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth1_2    Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:3A
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth1_3    Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:3A
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+ra0       Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:38
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:6
+
+root@MSS5004W:/#
+root@MSS5004W:/#
+root@MSS5004W:/#
+root@MSS5004W:/# ifconfig
+br-lan    Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:38
+          inet addr:192.168.1.1  Bcast:192.168.1.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3172 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1404 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:387775 (378.6 KiB)  TX bytes:742416 (725.0 KiB)
+
+br1       Link encap:Ethernet  HWaddr CE:B3:44:6F:48:9D
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth0      Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:39
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:8 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:448 (448.0 B)
+
+eth0.4094 Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:39
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth0.5    Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:39
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:8 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:400 (400.0 B)
+
+eth1      Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:3A
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:4002 errors:0 dropped:9 overruns:0 frame:0
+          TX packets:1420 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:1223557 (1.1 MiB)  TX bytes:749532 (731.9 KiB)
+          Interrupt:5
+
+eth1_0    Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:3A
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3993 errors:9 dropped:0 overruns:0 frame:0
+          TX packets:1412 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:1230866 (1.1 MiB)  TX bytes:751256 (733.6 KiB)
+
+eth1_1    Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:3A
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth1_2    Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:3A
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth1_3    Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:3A
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+ra0       Link encap:Ethernet  HWaddr 1C:18:4A:3B:D6:38
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:6
+
+root@MSS5004W:/# ls
+bin      dev      etc      lib      mnt      overlay  proc     rom      root     sbin     sys      tmp      usr      var      ve
+root@MSS5004W:/#
+root@MSS5004W:/# sys
+sysctl      syslogd     sysupgrade
+root@MSS5004W:/# top
+Mem: 28944K used, 33284K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   9% sys   0% nic  90% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1183  1127 root     R     1392   2%   9% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+ 1087     1 root     S      752   1%   0% /usr/bin/luci-bwc -d
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   1% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+ 1183  1127 root     R     1396   2%   0% top
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  99% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+ 1183  1127 root     R     1396   2%   0% top
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  99% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   1% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+ 1183  1127 root     R     1396   2%   0% top
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  99% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+ 1183  1127 root     R     1396   2%   0% top
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  99% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+ 1183  1127 root     R     1396   2%   0% top
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  99% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   1% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+ 1183  1127 root     R     1396   2%   0% top
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+q  99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  99% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  99% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   1% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+ 1183  1127 root     R     1396   2%   0% top
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+q  99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+ 1183  1127 root     R     1396   2%   0% top
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  99% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   1% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  99% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+ 1183  1127 root     R     1396   2%   0% top
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+Mem: 28968K used, 33260K free, 0K shrd, 2284K buff, 8424K cached
+CPU:   0% usr   0% sys   0% nic  98% idle   0% io   0% irq   0% sirq
+Load average: 0.00 0.00 0.00 1/37 1183
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 1087     1 root     S      752   1%   1% /usr/bin/luci-bwc -d
+ 1183  1127 root     R     1396   2%   0% top
+  972     1 root     S     1816   3%   0% /usr/sbin/uhttpd -f -h /www -r MSS500
+ 1127  1126 root     S     1428   2%   0% -ash
+    1     0 root     S     1400   2%   0% init
+  321     1 root     S     1396   2%   0% /sbin/getty -L ttyS1 57600 vt100
+  323   320 root     S     1392   2%   0% logger -s -p 6 -t sysinit
+  320     1 root     S     1392   2%   0% /bin/sh /etc/init.d/rcS S boot
+  491     1 root     S     1388   2%   0% syslogd -l 4
+  961     1 root     S     1388   2%   0% telnetd -l /bin/login -p 23
+  493     1 root     S     1384   2%   0% klogd
+ 1126   958 root     S     1204   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+ 1096     1 root     S     1184   2%   0% /sbin/eocmod
+ 1114  1113 root     S     1184   2%   0% /sbin/eocmod
+ 1113  1096 root     S     1184   2%   0% /sbin/eocmod
+  958     1 root     S     1136   2%   0% /usr/sbin/dropbear -P /var/run/dropbe
+  687     1 root     S     1000   2%   0% wand
+ 1012     1 nobody   S      916   1%   0% /usr/sbin/dnsmasq -K -D -y -Z -b -E -
+  495     1 root     S      776   1%   0% /sbin/hotplug2 --override --persisten
+   99     2 root     SW       0   0%   0% [ramips-spi]
+login as: root
+root@192.168.1.1's password:
+
+
+BusyBox v1.17.3 (2016-12-21 12:02:21 CST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+
+ Version r18580
+ ---------------------------------------------------
+root@MSS5004W:~#
+root@MSS5004W:~#
+root@MSS5004W:~#
+root@MSS5004W:~# uname -a
+Linux MSS5004W 2.6.32.27 #1 Tue Oct 30 12:35:51 CST 2018 mips GNU/Linux
+root@MSS5004W:~#
+MME_upgrade        crda               eocmod             ifconfig           led.sh             mtd                printf
+[                  crond              expr               ifdown             length             mv                 ps
+[[                 crontab            false              ifup               less               nc                 pwd
+adjtimex           cut                fgrep              igmpproxy          ln                 netmsg             px5g
+amptone            date               find               init               lock               netstat            qostool
+arp                dbclient           firstboot          insmod             logger             nice               rate.awk
+arping             dd                 free               int6k              login              nslookup           reboot
+ash                ddns_scripts.sh    fw                 int6kid            login.sh           ntpclient          reboot_script
+ated               devinfo.sh         fw_printenv        int6klist          logread            ntpd               reg
+awk                df                 fw_setenv          int6kmod           ls                 operation_ipk      reset
+backup.sh          diff               getEoCInfo.sh      int6krate          lsmod              opkg               restore.sh
+basename           dirname            getpib             int6ktone          lua                passwd             rm
+blkid              dmesg              getty              ip                 luci-bwc           pgrep              rmdir
+brctl              dnsmasq            grep               ipcalc.sh          luci-reload        pidof              rmmod
+bunzip2            dowps.sh           gunzip             iptables           md5sum             ping               route
+busybox            dropbear           gzip               iwconfig           mesg               ping6              scp
+bzcat              dropbearkey        halt               iwgetid            mkdir              pivot_root         sed
+cat                du                 head               iwlist             mkfifo             pkill              seq
+chgrp              ebtables           hexdump            iwpriv             mknod              pkt_fwd_ctl        setpib
+chmod              ebtables-restore   hostid             iwspy              mkswap             poweroff           sh
+chown              ebtables-save      hotplug-call       kill               mktemp             pppd               shpasswd
+chroot             echo               hotplug2           killall            modpib             pppds              sleep
+clear              egrep              hwclock            killall5           mount              pppoe              sort
+cp                 env                id                 klogd              mount_root         pppoe-server       ssh
+root@MSS5004W:~#
+MME_upgrade        crda               eocmod             ifconfig           led.sh             mtd                printf
+[                  crond              expr               ifdown             length             mv                 ps
+[[                 crontab            false              ifup               less               nc                 pwd
+adjtimex           cut                fgrep              igmpproxy          ln                 netmsg             px5g
+amptone            date               find               init               lock               netstat            qostool
+arp                dbclient           firstboot          insmod             logger             nice               rate.awk
+arping             dd                 free               int6k              login              nslookup           reboot
+ash                ddns_scripts.sh    fw                 int6kid            login.sh           ntpclient          reboot_script
+ated               devinfo.sh         fw_printenv        int6klist          logread            ntpd               reg
+awk                df                 fw_setenv          int6kmod           ls                 operation_ipk      reset
+backup.sh          diff               getEoCInfo.sh      int6krate          lsmod              opkg               restore.sh
+basename           dirname            getpib             int6ktone          lua                passwd             rm
+blkid              dmesg              getty              ip                 luci-bwc           pgrep              rmdir
+brctl              dnsmasq            grep               ipcalc.sh          luci-reload        pidof              rmmod
+bunzip2            dowps.sh           gunzip             iptables           md5sum             ping               route
+busybox            dropbear           gzip               iwconfig           mesg               ping6              scp
+bzcat              dropbearkey        halt               iwgetid            mkdir              pivot_root         sed
+cat                du                 head               iwlist             mkfifo             pkill              seq
+chgrp              ebtables           hexdump            iwpriv             mknod              pkt_fwd_ctl        setpib
+chmod              ebtables-restore   hostid             iwspy              mkswap             poweroff           sh
+chown              ebtables-save      hotplug-call       kill               mktemp             pppd               shpasswd
+chroot             echo               hotplug2           killall            modpib             pppds              sleep
+clear              egrep              hwclock            killall5           mount              pppoe              sort
+cp                 env                id                 klogd              mount_root         pppoe-server       ssh
+root@MSS5004W:~#
+MME_upgrade        crda               eocmod             ifconfig           led.sh             mtd                printf
+[                  crond              expr               ifdown             length             mv                 ps
+[[                 crontab            false              ifup               less               nc                 pwd
+adjtimex           cut                fgrep              igmpproxy          ln                 netmsg             px5g
+amptone            date               find               init               lock               netstat            qostool
+arp                dbclient           firstboot          insmod             logger             nice               rate.awk
+arping             dd                 free               int6k              login              nslookup           reboot
+ash                ddns_scripts.sh    fw                 int6kid            login.sh           ntpclient          reboot_script
+ated               devinfo.sh         fw_printenv        int6klist          logread            ntpd               reg
+awk                df                 fw_setenv          int6kmod           ls                 operation_ipk      reset
+backup.sh          diff               getEoCInfo.sh      int6krate          lsmod              opkg               restore.sh
+basename           dirname            getpib             int6ktone          lua                passwd             rm
+blkid              dmesg              getty              ip                 luci-bwc           pgrep              rmdir
+brctl              dnsmasq            grep               ipcalc.sh          luci-reload        pidof              rmmod
+bunzip2            dowps.sh           gunzip             iptables           md5sum             ping               route
+busybox            dropbear           gzip               iwconfig           mesg               ping6              scp
+bzcat              dropbearkey        halt               iwgetid            mkdir              pivot_root         sed
+cat                du                 head               iwlist             mkfifo             pkill              seq
+chgrp              ebtables           hexdump            iwpriv             mknod              pkt_fwd_ctl        setpib
+chmod              ebtables-restore   hostid             iwspy              mkswap             poweroff           sh
+chown              ebtables-save      hotplug-call       kill               mktemp             pppd               shpasswd
+chroot             echo               hotplug2           killall            modpib             pppds              sleep
+clear              egrep              hwclock            killall5           mount              pppoe              sort
+cp                 env                id                 klogd              mount_root         pppoe-server       ssh
+root@MSS5004W:~#
+MME_upgrade        crda               eocmod             ifconfig           led.sh             mtd                printf
+[                  crond              expr               ifdown             length             mv                 ps
+[[                 crontab            false              ifup               less               nc                 pwd
+adjtimex           cut                fgrep              igmpproxy          ln                 netmsg             px5g
+amptone            date               find               init               lock               netstat            qostool
+arp                dbclient           firstboot          insmod             logger             nice               rate.awk
+arping             dd                 free               int6k              login              nslookup           reboot
+ash                ddns_scripts.sh    fw                 int6kid            login.sh           ntpclient          reboot_script
+ated               devinfo.sh         fw_printenv        int6klist          logread            ntpd               reg
+awk                df                 fw_setenv          int6kmod           ls                 operation_ipk      reset
+backup.sh          diff               getEoCInfo.sh      int6krate          lsmod              opkg               restore.sh
+basename           dirname            getpib             int6ktone          lua                passwd             rm
+blkid              dmesg              getty              ip                 luci-bwc           pgrep              rmdir
+brctl              dnsmasq            grep               ipcalc.sh          luci-reload        pidof              rmmod
+bunzip2            dowps.sh           gunzip             iptables           md5sum             ping               route
+busybox            dropbear           gzip               iwconfig           mesg               ping6              scp
+bzcat              dropbearkey        halt               iwgetid            mkdir              pivot_root         sed
+cat                du                 head               iwlist             mkfifo             pkill              seq
+chgrp              ebtables           hexdump            iwpriv             mknod              pkt_fwd_ctl        setpib
+chmod              ebtables-restore   hostid             iwspy              mkswap             poweroff           sh
+chown              ebtables-save      hotplug-call       kill               mktemp             pppd               shpasswd
+chroot             echo               hotplug2           killall            modpib             pppds              sleep
+clear              egrep              hwclock            killall5           mount              pppoe              sort
+cp                 env                id                 klogd              mount_root         pppoe-server       ssh
+root@MSS5004W:~#
+MME_upgrade        crda               eocmod             ifconfig           led.sh             mtd                printf
+[                  crond              expr               ifdown             length             mv                 ps
+[[                 crontab            false              ifup               less               nc                 pwd
+adjtimex           cut                fgrep              igmpproxy          ln                 netmsg             px5g
+amptone            date               find               init               lock               netstat            qostool
+arp                dbclient           firstboot          insmod             logger             nice               rate.awk
+arping             dd                 free               int6k              login              nslookup           reboot
+ash                ddns_scripts.sh    fw                 int6kid            login.sh           ntpclient          reboot_script
+ated               devinfo.sh         fw_printenv        int6klist          logread            ntpd               reg
+awk                df                 fw_setenv          int6kmod           ls                 operation_ipk      reset
+backup.sh          diff               getEoCInfo.sh      int6krate          lsmod              opkg               restore.sh
+basename           dirname            getpib             int6ktone          lua                passwd             rm
+blkid              dmesg              getty              ip                 luci-bwc           pgrep              rmdir
+brctl              dnsmasq            grep               ipcalc.sh          luci-reload        pidof              rmmod
+bunzip2            dowps.sh           gunzip             iptables           md5sum             ping               route
+busybox            dropbear           gzip               iwconfig           mesg               ping6              scp
+bzcat              dropbearkey        halt               iwgetid            mkdir              pivot_root         sed
+cat                du                 head               iwlist             mkfifo             pkill              seq
+chgrp              ebtables           hexdump            iwpriv             mknod              pkt_fwd_ctl        setpib
+chmod              ebtables-restore   hostid             iwspy              mkswap             poweroff           sh
+chown              ebtables-save      hotplug-call       kill               mktemp             pppd               shpasswd
+chroot             echo               hotplug2           killall            modpib             pppds              sleep
+clear              egrep              hwclock            killall5           mount              pppoe              sort
+cp                 env                id                 klogd              mount_root         pppoe-server       ssh
+root@MSS5004W:~#
+MME_upgrade        crda               eocmod             ifconfig           led.sh             mtd                printf
+[                  crond              expr               ifdown             length             mv                 ps
+[[                 crontab            false              ifup               less               nc                 pwd
+adjtimex           cut                fgrep              igmpproxy          ln                 netmsg             px5g
+amptone            date               find               init               lock               netstat            qostool
+arp                dbclient           firstboot          insmod             logger             nice               rate.awk
+arping             dd                 free               int6k              login              nslookup           reboot
+ash                ddns_scripts.sh    fw                 int6kid            login.sh           ntpclient          reboot_script
+ated               devinfo.sh         fw_printenv        int6klist          logread            ntpd               reg
+awk                df                 fw_setenv          int6kmod           ls                 operation_ipk      reset
+backup.sh          diff               getEoCInfo.sh      int6krate          lsmod              opkg               restore.sh
+basename           dirname            getpib             int6ktone          lua                passwd             rm
+blkid              dmesg              getty              ip                 luci-bwc           pgrep              rmdir
+brctl              dnsmasq            grep               ipcalc.sh          luci-reload        pidof              rmmod
+bunzip2            dowps.sh           gunzip             iptables           md5sum             ping               route
+busybox            dropbear           gzip               iwconfig           mesg               ping6              scp
+bzcat              dropbearkey        halt               iwgetid            mkdir              pivot_root         sed
+cat                du                 head               iwlist             mkfifo             pkill              seq
+chgrp              ebtables           hexdump            iwpriv             mknod              pkt_fwd_ctl        setpib
+chmod              ebtables-restore   hostid             iwspy              mkswap             poweroff           sh
+chown              ebtables-save      hotplug-call       kill               mktemp             pppd               shpasswd
+chroot             echo               hotplug2           killall            modpib             pppds              sleep
+clear              egrep              hwclock            killall5           mount              pppoe              sort
+cp                 env                id                 klogd              mount_root         pppoe-server       ssh
+root@MSS5004W:~# iwlist
+Usage: iwlist [interface] scanning [essid NNN] [last]
+              [interface] frequency
+              [interface] channel
+              [interface] bitrate
+              [interface] rate
+              [interface] encryption
+              [interface] keys
+              [interface] power
+              [interface] txpower
+root@MSS5004W:~# busybox
+BusyBox v1.17.3 (2016-12-21 12:02:21 CST) multi-call binary.
+Copyright (C) 1998-2009 Erik Andersen, Rob Landley, Denys Vlasenko
+and others. Licensed under GPLv2.
+See source distribution for full notice.
+
+Usage: busybox [function] [arguments]...
+   or: function [arguments]...
+
+        BusyBox is a multi-call binary that combines many common Unix
+        utilities into a single executable.  Most people will create a
+        link to busybox for each function they wish to use and BusyBox
+        will act like whatever it was invoked as.
+
+Currently defined functions:
+        [, [[, arp, arping, ash, awk, basename, blkid, brctl, bunzip2, bzcat, cat, chgrp, chmod, chown, chroot, clear, cp, crond
+        echo, egrep, env, expr, false, fgrep, find, free, getty, grep, gunzip, gzip, halt, head, hexdump, hostid, hwclock, id, i
+        length, less, ln, lock, logger, login, logread, ls, lsmod, md5sum, mesg, mkdir, mkfifo, mknod, mkswap, mktemp, mount, mv
+        pidof, ping, ping6, pivot_root, pkill, poweroff, printf, ps, pwd, reboot, reset, rm, rmdir, rmmod, route, sed, seq, sh,
+        switch_root, sync, sysctl, syslogd, tail, tar, tee, telnet, telnetd, test, tftp, time, top, touch, tr, traceroute, true,
+        which, xargs, yes, zcat
+
+root@MSS5004W:~#

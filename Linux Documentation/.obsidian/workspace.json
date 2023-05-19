@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "33d61986d80f79d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "12df796c416900a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bdc316847c01f29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bash/Script Permissions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "574c3c0da53bb055",
+    "type": "split",
+    "children": [
+      {
+        "id": "37b03cb487977a01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36e2c85d4d99f3d4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4e679a6430b86607",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1912a85bc8a3a751",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fa0dbc46d185aaf6",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e0c285ac7c6b6fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "faab7b853035d465",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Bash/Script Permissions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "26938b3765e932a9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Bash/Script Permissions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "62a573be441f8667",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9acba537fc0e5651",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Bash/Script Permissions.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8bdc316847c01f29",
+  "lastOpenFiles": [
+    "Bash/BASH.md",
+    "Bash/Script Permissions.md",
+    "Bash/Professional Information.md",
+    "Bash/Printing - Echo.md",
+    "Bash/Exit Codes.md",
+    "Embedded Linux/OpenWrt/PACKAGES/Check if a Package Exists.md",
+    "Embedded Linux/Dumping Flash Rom.md",
+    "Embedded Linux/EMBEDDED LINUX.md",
+    "Embedded Linux/OpenWrt/OPENWRT.md",
+    "Bash",
+    "Embedded Linux/OpenWrt/Moving Files To RAM.md",
+    "Embedded Linux/OpenWrt/Connect to Outer World.md",
+    "Embedded Linux/OpenWrt/Manually Adding Folders and Files into the RootFS.md",
+    "Embedded Linux/OpenWrt/Manually Changing Root Password.md",
+    "Embedded Linux/OpenWrt/PACKAGES/PACKAGES.md",
+    "Embedded Linux/OpenWrt/PACKAGES/Manually Installing Packages.md",
+    "Embedded Linux/OpenWrt/PACKAGES",
+    "Embedded Linux/OpenWrt/Emulating the OpenWrt.md",
+    "Embedded Linux/OpenWrt/Running Scripts at Boot.md",
+    "Embedded Linux/OpenWrt/PACKAGES/Installing Packages into RAM.md",
+    "Embedded Linux/OpenWrt/PACKAGES/Finding a Package.md",
+    "Embedded Linux/In.md",
+    "Embedded Linux/OpenWrt",
+    "Embedded Linux"
+  ]
+}
