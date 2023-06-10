@@ -4,22 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "12df796c416900a2",
+        "id": "445648b54c1ef429",
         "type": "tabs",
         "children": [
           {
-            "id": "8bdc316847c01f29",
+            "id": "31d07511b1808b35",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "a9bdfc0e755f5ac2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bash/Script Permissions.md",
+                "file": "Bash/PARAMETERS/VARIABLES/Substrings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f06ed52e0beb0b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bash/ARRAYS/ARRAYS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bash/Script Permissions.md",
+                "file": "Bash/ARRAYS/ARRAYS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bash/Script Permissions.md",
+                "file": "Bash/ARRAYS/ARRAYS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bash/Script Permissions.md"
+                "file": "Bash/ARRAYS/ARRAYS.md"
               }
             }
           }
@@ -146,31 +169,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8bdc316847c01f29",
+  "active": "3f06ed52e0beb0b4",
   "lastOpenFiles": [
+    "Bash/ARRAYS/ARRAYS.md",
+    "Bash/PARAMETERS/VARIABLES/Substrings.md",
+    "Bash/PARAMETERS/VARIABLES/Shell Variables.md",
+    "Bash/PARAMETERS/VARIABLES/Length of a Variable.md",
+    "Bash/PARAMETERS/VARIABLES/Decimal Numbers.md",
+    "Bash/PARAMETERS/VARIABLES/Changing the Case of Values.md",
+    "Bash/PARAMETERS/VARIABLES/Changing the Terminal Prompt String.md",
+    "Bash/PARAMETERS/PARAMETERS.md",
+    "Bash/PARAMETERS/Tilde Expansion and Home Directories.md",
+    "Bash/PARAMETERS/Variables-and-Shell-Expansions-Cheatsheet.pdf",
+    "Bash/PARAMETERS/Brace Expansion.md",
     "Bash/BASH.md",
-    "Bash/Script Permissions.md",
+    "Bash/ARRAYS/Untitled.md",
+    "Bash/LOGIC/Reading Files - Read-While Loops.md",
+    "Bash/ARRAYS",
+    "Bash/LOGIC/Test Commands and Conditional Operators.md",
+    "Bash/LOGIC/Reading Output of Commands - Process Substitution.md",
+    "Bash/LOGIC/LOGIC.md",
+    "Bash/LOGIC/Command Line Options - Getopts.md",
+    "Bash/LOGIC/Case Statement.md",
+    "Bash/LOGIC/Chaining Commands.md",
+    "Bash/USER INPUT/Select Options.md",
     "Bash/Professional Information.md",
-    "Bash/Printing - Echo.md",
-    "Bash/Exit Codes.md",
-    "Embedded Linux/OpenWrt/PACKAGES/Check if a Package Exists.md",
-    "Embedded Linux/Dumping Flash Rom.md",
-    "Embedded Linux/EMBEDDED LINUX.md",
-    "Embedded Linux/OpenWrt/OPENWRT.md",
-    "Bash",
-    "Embedded Linux/OpenWrt/Moving Files To RAM.md",
-    "Embedded Linux/OpenWrt/Connect to Outer World.md",
-    "Embedded Linux/OpenWrt/Manually Adding Folders and Files into the RootFS.md",
-    "Embedded Linux/OpenWrt/Manually Changing Root Password.md",
-    "Embedded Linux/OpenWrt/PACKAGES/PACKAGES.md",
-    "Embedded Linux/OpenWrt/PACKAGES/Manually Installing Packages.md",
-    "Embedded Linux/OpenWrt/PACKAGES",
-    "Embedded Linux/OpenWrt/Emulating the OpenWrt.md",
-    "Embedded Linux/OpenWrt/Running Scripts at Boot.md",
-    "Embedded Linux/OpenWrt/PACKAGES/Installing Packages into RAM.md",
-    "Embedded Linux/OpenWrt/PACKAGES/Finding a Package.md",
-    "Embedded Linux/In.md",
-    "Embedded Linux/OpenWrt",
-    "Embedded Linux"
+    "Untitled.canvas",
+    "Bash/LOGIC",
+    "Bash/Untitled.md",
+    "Bash/USER INPUT/Read.md",
+    "Bash/USER INPUT/USER INPUT.md",
+    "Bash/USER INPUT/Positional Parameters.md",
+    "Bash/USER INPUT/Special Parameters @ and asterisk.md",
+    "Bash/USER INPUT",
+    "Bash/USER INPUT/User-Input-Cheatsheet.pdf",
+    "Bash/COMMAND LINE PROCESSING/Command-Line-Processing-Cheatsheet 1.pdf",
+    "Command-Line-Processing-Cheatsheet.pdf",
+    "Bash/COMMAND LINE PROCESSING",
+    "Bash/PARAMETERS/VARIABLES",
+    "Bash/PARAMETERS"
   ]
 }

@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"523fde3d63844bd6","x":0,"y":-220,"width":400,"height":400,"type":"group","label":"Untitled group"},
+		{"id":"26cced91bc4a5154","x":-500,"y":-240,"width":400,"height":400,"type":"file","file":"Bash/USER INPUT/Read.md"},
+		{"id":"84fe4d30710ed4e3","x":113,"y":-29,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"51ee7e532a4ecdbd","fromNode":"84fe4d30710ed4e3","fromSide":"top","toNode":"26cced91bc4a5154","toSide":"right"}
+	]
+}

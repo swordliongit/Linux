@@ -1,0 +1,7 @@
+Ash doesn't have:
+
+* , or ^ parameter expansions
+
+* Can't do negative substrings
+
+* Can't do omitted end substrings ( n:3: )
