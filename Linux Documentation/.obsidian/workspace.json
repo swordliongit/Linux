@@ -18,19 +18,19 @@
             }
           },
           {
-            "id": "a9bdfc0e755f5ac2",
+            "id": "ba3f31b7a787e045",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bash/PARAMETERS/VARIABLES/Substrings.md",
+                "file": "Bash/ARRAYS/For Loops and Iterating Over Arrays.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3f06ed52e0beb0b4",
+            "id": "6fbdaa55205c4b21",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -40,9 +40,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e621c96512edc53f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Embedded Linux/OpenWrt/How to Check Ports.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "793ed19f6ce5ef20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Embedded Linux/OpenWrt/OPENWRT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a01a2cfc93a56ccb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Embedded Linux/OpenWrt/Connect to Outer World.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -108,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bash/ARRAYS/ARRAYS.md",
+                "file": "Embedded Linux/OpenWrt/Connect to Outer World.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bash/ARRAYS/ARRAYS.md",
+                "file": "Embedded Linux/OpenWrt/Connect to Outer World.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bash/ARRAYS/ARRAYS.md"
+                "file": "Embedded Linux/OpenWrt/Connect to Outer World.md"
               }
             }
           }
@@ -169,44 +205,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f06ed52e0beb0b4",
+  "active": "a01a2cfc93a56ccb",
   "lastOpenFiles": [
+    "Embedded Linux/OpenWrt/OPENWRT.md",
+    "Embedded Linux/OpenWrt/How to Check Ports.md",
+    "Untitled.canvas",
     "Bash/ARRAYS/ARRAYS.md",
+    "Bash/ARRAYS/Arrays+and+For+Loops+Cheatsheet.pdf",
+    "Bash/ARRAYS/For Loops and Iterating Over Arrays.md",
+    "Bash/LOGIC/Reading Output of Commands - Process Substitution.md",
+    "Bash/LOGIC/Command Line Options - Getopts.md",
+    "Bash/PARAMETERS/VARIABLES/VARIABLES.md",
+    "Bash/PARAMETERS/Brace Expansion.md",
+    "Bash/PARAMETERS/PARAMETERS.md",
+    "Bash/LOGIC/Case Statement.md",
+    "Bash/LOGIC/Chaining Commands.md",
+    "Bash/LOGIC/LOGIC.md",
+    "Bash/LOGIC/Reading Files - Read-While Loops.md",
+    "Bash/ARRAYS/Converting into Arrays - Readarray.md",
     "Bash/PARAMETERS/VARIABLES/Substrings.md",
     "Bash/PARAMETERS/VARIABLES/Shell Variables.md",
     "Bash/PARAMETERS/VARIABLES/Length of a Variable.md",
     "Bash/PARAMETERS/VARIABLES/Decimal Numbers.md",
     "Bash/PARAMETERS/VARIABLES/Changing the Case of Values.md",
     "Bash/PARAMETERS/VARIABLES/Changing the Terminal Prompt String.md",
-    "Bash/PARAMETERS/PARAMETERS.md",
     "Bash/PARAMETERS/Tilde Expansion and Home Directories.md",
     "Bash/PARAMETERS/Variables-and-Shell-Expansions-Cheatsheet.pdf",
-    "Bash/PARAMETERS/Brace Expansion.md",
     "Bash/BASH.md",
-    "Bash/ARRAYS/Untitled.md",
-    "Bash/LOGIC/Reading Files - Read-While Loops.md",
     "Bash/ARRAYS",
     "Bash/LOGIC/Test Commands and Conditional Operators.md",
-    "Bash/LOGIC/Reading Output of Commands - Process Substitution.md",
-    "Bash/LOGIC/LOGIC.md",
-    "Bash/LOGIC/Command Line Options - Getopts.md",
-    "Bash/LOGIC/Case Statement.md",
-    "Bash/LOGIC/Chaining Commands.md",
     "Bash/USER INPUT/Select Options.md",
     "Bash/Professional Information.md",
-    "Untitled.canvas",
     "Bash/LOGIC",
     "Bash/Untitled.md",
-    "Bash/USER INPUT/Read.md",
-    "Bash/USER INPUT/USER INPUT.md",
-    "Bash/USER INPUT/Positional Parameters.md",
-    "Bash/USER INPUT/Special Parameters @ and asterisk.md",
     "Bash/USER INPUT",
     "Bash/USER INPUT/User-Input-Cheatsheet.pdf",
     "Bash/COMMAND LINE PROCESSING/Command-Line-Processing-Cheatsheet 1.pdf",
     "Command-Line-Processing-Cheatsheet.pdf",
     "Bash/COMMAND LINE PROCESSING",
-    "Bash/PARAMETERS/VARIABLES",
-    "Bash/PARAMETERS"
+    "Bash/PARAMETERS/VARIABLES"
   ]
 }
