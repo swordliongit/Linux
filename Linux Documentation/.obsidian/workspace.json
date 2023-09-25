@@ -76,9 +76,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0bc9bf38a4243c86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bash/LOGIC/Test Commands and Conditional Operators.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -144,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embedded Linux/OpenWrt/Connect to Outer World.md",
+                "file": "Bash/LOGIC/Test Commands and Conditional Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Embedded Linux/OpenWrt/Connect to Outer World.md",
+                "file": "Bash/LOGIC/Test Commands and Conditional Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Embedded Linux/OpenWrt/Connect to Outer World.md"
+                "file": "Bash/LOGIC/Test Commands and Conditional Operators.md"
               }
             }
           }
@@ -205,12 +217,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a01a2cfc93a56ccb",
+  "active": "0bc9bf38a4243c86",
   "lastOpenFiles": [
+    "Embedded Linux/OpenWrt/Connect to Outer World.md",
+    "Embedded Linux/OpenWrt/Moving Files To RAM.md",
+    "Bash/ARRAYS/ARRAYS.md",
     "Embedded Linux/OpenWrt/OPENWRT.md",
     "Embedded Linux/OpenWrt/How to Check Ports.md",
     "Untitled.canvas",
-    "Bash/ARRAYS/ARRAYS.md",
     "Bash/ARRAYS/Arrays+and+For+Loops+Cheatsheet.pdf",
     "Bash/ARRAYS/For Loops and Iterating Over Arrays.md",
     "Bash/LOGIC/Reading Output of Commands - Process Substitution.md",
@@ -235,9 +249,7 @@
     "Bash/ARRAYS",
     "Bash/LOGIC/Test Commands and Conditional Operators.md",
     "Bash/USER INPUT/Select Options.md",
-    "Bash/Professional Information.md",
     "Bash/LOGIC",
-    "Bash/Untitled.md",
     "Bash/USER INPUT",
     "Bash/USER INPUT/User-Input-Cheatsheet.pdf",
     "Bash/COMMAND LINE PROCESSING/Command-Line-Processing-Cheatsheet 1.pdf",
