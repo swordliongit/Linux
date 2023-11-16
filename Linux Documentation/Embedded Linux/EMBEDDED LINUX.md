@@ -1,2 +1,0 @@
-[[OPENWRT]]
-[[Dumping Flash Rom]]

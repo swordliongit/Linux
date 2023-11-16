@@ -2,263 +2,273 @@
   "nodePositions": [
     {
       "id": "Bash/ARRAYS/ARRAYS.md",
-      "x": 572.214111328125,
-      "y": 181.10459899902344
+      "x": 528.30078125,
+      "y": 28.093156814575195
     },
     {
       "id": "Bash/ARRAYS/Converting into Arrays - Readarray.md",
-      "x": 674.5155029296875,
-      "y": 460.9525451660156
+      "x": 712.2284545898438,
+      "y": 36.337425231933594
     },
     {
       "id": "Bash/ARRAYS/For Loops and Iterating Over Arrays.md",
-      "x": 518.227783203125,
-      "y": 406.794677734375
+      "x": 629.0694580078125,
+      "y": 202.36831665039062
     },
     {
       "id": "Bash/Archive - Tar.md",
-      "x": 546.2071533203125,
-      "y": -498.19073486328125
+      "x": 285.6228332519531,
+      "y": -296.7921447753906
     },
     {
       "id": "Bash/BASH.md",
-      "x": 472.322265625,
-      "y": -252.08425903320312
+      "x": 253.68959045410156,
+      "y": -110.63887023925781
     },
     {
       "id": "Bash/COMMAND LINE PROCESSING/COMMAND LINE PROCESSING.md",
-      "x": 955.8551635742188,
-      "y": 155.79605102539062
+      "x": 462.5357666015625,
+      "y": -284.7085266113281
     },
     {
       "id": "Bash/COMMAND LINE PROCESSING/Globbing - Pattern Matching.md",
-      "x": 972.543212890625,
-      "y": 431.5235900878906
+      "x": 638.2239990234375,
+      "y": -191.7072296142578
     },
     {
       "id": "Bash/COMMAND LINE PROCESSING/Redirection.md",
-      "x": 1201.4207763671875,
-      "y": 193.22438049316406
+      "x": 465.5539855957031,
+      "y": -481.6844482421875
     },
     {
       "id": "Bash/COMMAND LINE PROCESSING/Word Splitting.md",
-      "x": 1131.39013671875,
-      "y": 376.6480712890625
+      "x": 615.0230102539062,
+      "y": -380.0198059082031
     },
     {
       "id": "Bash/Exit Codes.md",
-      "x": 391.20367431640625,
-      "y": -524.9713134765625
+      "x": 110.39617919921875,
+      "y": -228.2649383544922
     },
     {
       "id": "Bash/LOGIC/Case Statement.md",
-      "x": -49.25693893432617,
-      "y": -72.28807830810547
+      "x": 219.3408660888672,
+      "y": 214.1765899658203
     },
     {
       "id": "Bash/LOGIC/Chaining Commands.md",
-      "x": -167.36962890625,
-      "y": 46.79263687133789
+      "x": 238.68356323242188,
+      "y": 340.86492919921875
     },
     {
       "id": "Bash/LOGIC/Command Line Options - Getopts.md",
-      "x": 32.05976486206055,
-      "y": 333.8141174316406
+      "x": 433.895263671875,
+      "y": 412.7305908203125
     },
     {
       "id": "Bash/LOGIC/LOGIC.md",
-      "x": 104.46823120117188,
-      "y": 126.25369262695312
+      "x": 418.9002380371094,
+      "y": 233.4297332763672
     },
     {
       "id": "Bash/LOGIC/Reading Files - Read-While Loops.md",
-      "x": 198.08856201171875,
-      "y": 536.1100463867188
+      "x": 547.6552734375,
+      "y": 450.9194641113281
     },
     {
       "id": "Bash/LOGIC/Reading Output of Commands - Process Substitution.md",
-      "x": 316.14129638671875,
-      "y": 785.6728515625
+      "x": 370.7117919921875,
+      "y": 604.6849365234375
     },
     {
       "id": "Bash/LOGIC/Test Commands and Conditional Operators.md",
-      "x": -130.33607482910156,
-      "y": 216.6123809814453
+      "x": 304.2432556152344,
+      "y": 441.37298583984375
     },
     {
       "id": "Bash/PARAMETERS/Brace Expansion.md",
-      "x": -151.99388122558594,
-      "y": -905.314453125
+      "x": -150.6949462890625,
+      "y": -46.44190216064453
     },
     {
       "id": "Bash/PARAMETERS/PARAMETERS.md",
-      "x": -72.48883056640625,
-      "y": -679.681396484375
+      "x": -56.74483871459961,
+      "y": -219.72723388671875
     },
     {
       "id": "Bash/PARAMETERS/Tilde Expansion and Home Directories.md",
-      "x": 33.73548126220703,
-      "y": -916.2863159179688
+      "x": -236.4649200439453,
+      "y": -190.58726501464844
     },
     {
       "id": "Bash/PARAMETERS/VARIABLES/Changing the Case of Values.md",
-      "x": -666.2783203125,
-      "y": -569.6237182617188
+      "x": -396.9501953125,
+      "y": -236.61280822753906
     },
     {
       "id": "Bash/PARAMETERS/VARIABLES/Changing the Terminal Prompt String.md",
-      "x": -1147.0697021484375,
-      "y": -556.43017578125
+      "x": -662.4617309570312,
+      "y": -225.19979858398438
     },
     {
       "id": "Bash/PARAMETERS/VARIABLES/Decimal Numbers.md",
-      "x": -804.1743774414062,
-      "y": -858.0751953125
+      "x": -469.41058349609375,
+      "y": -476.7403869628906
     },
     {
       "id": "Bash/PARAMETERS/VARIABLES/Length of a Variable.md",
-      "x": -680.1310424804688,
-      "y": -1006.9588623046875
+      "x": -354.2463684082031,
+      "y": -579.688232421875
     },
     {
       "id": "Bash/PARAMETERS/VARIABLES/Shell Variables.md",
-      "x": -928.7269287109375,
-      "y": -645.740478515625
+      "x": -515.1813354492188,
+      "y": -334.79559326171875
     },
     {
       "id": "Bash/PARAMETERS/VARIABLES/Substrings.md",
-      "x": -492.5434265136719,
-      "y": -985.6280517578125
+      "x": -214.7797393798828,
+      "y": -586.1806030273438
     },
     {
       "id": "Bash/PARAMETERS/VARIABLES/VARIABLES.md",
-      "x": -583.5792236328125,
-      "y": -769.6013793945312
+      "x": -284.12945556640625,
+      "y": -391.3851318359375
     },
     {
       "id": "Bash/Printing - Echo.md",
-      "x": 620.31982421875,
-      "y": -101.59503936767578
+      "x": 341.9646301269531,
+      "y": 53.38337326049805
     },
     {
       "id": "Bash/Professional Information.md",
-      "x": 266.5276184082031,
-      "y": -411.9884948730469
+      "x": 60.69383239746094,
+      "y": -46.35396194458008
     },
     {
       "id": "Bash/Running Scripts Anywhere.md",
-      "x": 677.7933959960938,
-      "y": -333.52056884765625
+      "x": 443.34210205078125,
+      "y": -112.23004150390625
     },
     {
       "id": "Bash/Script Permissions.md",
-      "x": 264.208740234375,
-      "y": -226.40835571289062
+      "x": 145.6451416015625,
+      "y": 61.30521011352539
     },
     {
       "id": "Bash/USER INPUT/Positional Parameters.md",
-      "x": 1200.3446044921875,
-      "y": -522.807373046875
+      "x": 217.24562072753906,
+      "y": -622.6202392578125
     },
     {
       "id": "Bash/USER INPUT/Read.md",
-      "x": 842.2702026367188,
-      "y": -840.5929565429688
+      "x": -65.03407287597656,
+      "y": -422.9747009277344
     },
     {
       "id": "Bash/USER INPUT/Select Options.md",
-      "x": 1029.977294921875,
-      "y": -846.3817749023438
+      "x": -28.245983123779297,
+      "y": -583.4181518554688
     },
     {
       "id": "Bash/USER INPUT/Special Parameters @ and asterisk.md",
-      "x": 1074.586181640625,
-      "y": -399.7978210449219
+      "x": 300.1433410644531,
+      "y": -512.481689453125
     },
     {
       "id": "Bash/USER INPUT/Special Parameters Hash and 0.md",
-      "x": 1173.3974609375,
-      "y": -707.6743774414062
+      "x": 82.99842071533203,
+      "y": -646.8734741210938
     },
     {
       "id": "Bash/USER INPUT/USER INPUT.md",
-      "x": 942.004638671875,
-      "y": -606.7246704101562
+      "x": 125.6646957397461,
+      "y": -433.8547058105469
     },
     {
-      "id": "Embedded Linux/Dumping Flash Rom.md",
-      "x": 54.221893310546875,
-      "y": 1297.3870849609375
+      "id": "OpenWrt/Running Scripts at Boot.md",
+      "x": -137.84336853027344,
+      "y": 612.50927734375
     },
     {
-      "id": "Embedded Linux/EMBEDDED LINUX.md",
-      "x": -176.66067504882812,
-      "y": 1180.7158203125
+      "id": "OpenWrt/PACKAGES/Manually Installing Packages.md",
+      "x": -637.9400634765625,
+      "y": 264.8479309082031
     },
     {
-      "id": "Embedded Linux/OpenWrt/Connect to Outer World.md",
-      "x": -316.4081726074219,
-      "y": 937.6550903320312
+      "id": "OpenWrt/PACKAGES/Finding a Package.md",
+      "x": -674.4437255859375,
+      "y": 78.9753646850586
     },
     {
-      "id": "Embedded Linux/OpenWrt/Emulating the OpenWrt.md",
-      "x": -623.0798950195312,
-      "y": 1202.0679931640625
+      "id": "OpenWrt/PACKAGES/Check if a Package Exists.md",
+      "x": -410.6799011230469,
+      "y": -24.089893341064453
     },
     {
-      "id": "Embedded Linux/OpenWrt/Manually Adding Folders and Files into the RootFS.md",
-      "x": -772.3262329101562,
-      "y": 1053.455322265625
+      "id": "OpenWrt/PACKAGES/Installing Packages into RAM.md",
+      "x": -579.1376342773438,
+      "y": -37.89375686645508
     },
     {
-      "id": "Embedded Linux/OpenWrt/Manually Changing Root Password.md",
-      "x": -480.2159118652344,
-      "y": 753.0259399414062
+      "id": "OpenWrt/PACKAGES/PACKAGES.md",
+      "x": -488.6197509765625,
+      "y": 146.4325714111328
     },
     {
-      "id": "Embedded Linux/OpenWrt/Moving Files To RAM.md",
-      "x": -427.64459228515625,
-      "y": 1178.8763427734375
+      "id": "OpenWrt/Connect to Outer World.md",
+      "x": -18.678508758544922,
+      "y": 346.8917236328125
     },
     {
-      "id": "Embedded Linux/OpenWrt/OPENWRT.md",
-      "x": -542.75634765625,
-      "y": 968.8457641601562
+      "id": "OpenWrt/Dumping Flash Rom.md",
+      "x": -316.3861389160156,
+      "y": 220.40760803222656
     },
     {
-      "id": "Embedded Linux/OpenWrt/PACKAGES/Check if a Package Exists.md",
-      "x": -856.5908203125,
-      "y": 303.1211242675781
+      "id": "OpenWrt/Emulating.md",
+      "x": -257.8314514160156,
+      "y": 614.1039428710938
     },
     {
-      "id": "Embedded Linux/OpenWrt/PACKAGES/Finding a Package.md",
-      "x": -1049.4495849609375,
-      "y": 292.06842041015625
+      "id": "OpenWrt/How to Check Ports.md",
+      "x": -440.59295654296875,
+      "y": 446.63134765625
     },
     {
-      "id": "Embedded Linux/OpenWrt/PACKAGES/Installing Packages into RAM.md",
-      "x": -1127.579833984375,
-      "y": 632.8594970703125
+      "id": "OpenWrt/Manually Adding Folders and Files into the RootFS.md",
+      "x": -411.4391174316406,
+      "y": 325.76025390625
     },
     {
-      "id": "Embedded Linux/OpenWrt/PACKAGES/Manually Installing Packages.md",
-      "x": -1162.22802734375,
-      "y": 433.4255065917969
+      "id": "OpenWrt/Manually Changing Root Password.md",
+      "x": -7.540204048156738,
+      "y": 468.1454772949219
     },
     {
-      "id": "Embedded Linux/OpenWrt/PACKAGES/PACKAGES.md",
-      "x": -920.492431640625,
-      "y": 530.552978515625
+      "id": "OpenWrt/Moving Files To RAM.md",
+      "x": -370.6512451171875,
+      "y": 551.295166015625
     },
     {
-      "id": "Embedded Linux/OpenWrt/Running Scripts at Boot.md",
-      "x": -721.0640258789062,
-      "y": 836.8405151367188
+      "id": "OpenWrt/OPENWRT.md",
+      "x": -218.7222442626953,
+      "y": 403.4720764160156
     },
     {
-      "id": "Embedded Linux/OpenWrt/How to Check Ports.md",
-      "x": -47.079490661621094,
-      "y": -1508.1856689453125
+      "id": "OpenWrt/Firmware Extraction.md",
+      "x": -20.49283218383789,
+      "y": 587.4425659179688
+    },
+    {
+      "id": "OpenWrt/TFTP Flashing.md",
+      "x": -199.7516632080078,
+      "y": 182.28375244140625
+    },
+    {
+      "id": "OpenWrt/TFTP.md",
+      "x": -85.39835357666016,
+      "y": 234.17979431152344
     }
   ],
   "automaticallyRestoreNodePositions": true

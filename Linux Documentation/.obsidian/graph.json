@@ -1,86 +1,51 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "file:Manually Changing",
+      "query": "file:OPENWRT",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 14701138
       }
     },
     {
-      "query": "file:Connect",
+      "query": "file:PACKAGE",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 10449949
       }
     },
     {
-      "query": "file:Moving",
+      "query": "file:BASH",
+      "color": {
+        "a": 1,
+        "rgb": 2212382
+      }
+    },
+    {
+      "query": "path:Bash",
       "color": {
         "a": 1,
         "rgb": 5431378
-      }
-    },
-    {
-      "query": "file:Running Scripts",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    },
-    {
-      "query": "file:Emulating the",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
-    },
-    {
-      "query": "file:Installing Packages",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "file:Finding a Package",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "file:Check if a Pack",
-      "color": {
-        "a": 1,
-        "rgb": 11621088
-      }
-    },
-    {
-      "query": "file:Manually Installing",
-      "color": {
-        "a": 1,
-        "rgb": 14701233
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1,
+  "nodeSizeMultiplier": 1.6807201953072,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.2625,
-  "repelStrength": 10.5833333333333,
-  "linkStrength": 0.629166666666667,
-  "linkDistance": 151,
-  "scale": 0.45939477032414616,
-  "close": true
+  "centerStrength": 0.400718839007188,
+  "repelStrength": 8.44839278448393,
+  "linkStrength": 0.548284280482843,
+  "linkDistance": 173,
+  "scale": 0.6886072459092942,
+  "close": false
 }
